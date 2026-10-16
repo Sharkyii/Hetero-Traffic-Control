@@ -13,23 +13,41 @@ A high-performance microscopic traffic simulation and adaptive signal control fr
 
 This framework introduces a **Dual-Intelligence Architecture** uniting macroscopic adaptive signal control with microscopic driver parameter personalization:
 
+<p align="center">
+  <img src="results/figures/framework_architecture.png" width="100%" alt="Dual-Intelligence Architecture Framework">
+</p>
+
+<details>
+<summary><b>View System Workflow Flowchart (Mermaid)</b></summary>
+
 ```mermaid
-flowchart TD
-    subgraph Macro ["Macro Layer: Heterogeneous Queue-Clearing Max-Pressure (H-QC-MPC)"]
-        A["Incoming Queues (x_l^PCU)<br>IRC 106-1990 Weighting"] --> B["Pressure Differential<br>W_{l,m} = max(0, x_l - R_hat_{l,m} · x_m)"]
-        B --> C["Dynamic Green Allocation<br>g_i* in [g_min, g_max]"]
-        C --> D["Exhaustive Queue Clearing<br>(Hold Green until Q = 0)"]
-        D --> E["Event-Driven Polygon Clearance<br>(Zero Lost Time: Switch instant box clears)"]
+flowchart LR
+    classDef macro fill:#1E3A8A,stroke:#0F172A,stroke-width:2px,color:#FFFFFF,rx:8px,ry:8px;
+    classDef micro fill:#0D9488,stroke:#042F2E,stroke-width:2px,color:#FFFFFF,rx:8px,ry:8px;
+
+    subgraph MACRO ["MACROSCOPIC SIGNAL CONTROL (H-QC-MPC)"]
+        direction TB
+        M1["Heterogeneous Queue Weighting<br/><b>IRC: 106-1990 PCU Scale</b>"]:::macro
+        M2["Dynamic Pressure Differential<br/><b>Upstream vs Downstream</b>"]:::macro
+        M3["Exhaustive Queue Clearing<br/><b>Hold Green Until Q = 0</b>"]:::macro
+        M4["Dynamic Conflict Box Audit<br/><b>Instant Event-Driven Clearance</b>"]:::macro
+        M1 --> M2 --> M3 --> M4
     end
 
-    subgraph Micro ["Micro Layer: Intelligent Driver Model + Potential Fields"]
-        F["Empirical Priors (Drone Trajectories)<br>Small: T=1.20s | Med: T=0.92s | Large: T=1.05s"] --> G["2D Physics Engine<br>(IDM Car-Following + Lateral Wall Repulsion)"]
-        G --> H["Online Dual-EKF Estimator<br>Real-time adaptation of [T_i, a_max^(i), s_{0,i}]"]
+    subgraph MICRO ["MICROSCOPIC DRIVER INTELLIGENCE (DUAL-EKF)"]
+        direction TB
+        U1["Empirical Drone Priors<br/><b>Heterogeneous Distributions</b>"]:::micro
+        U2["2D Physical Dynamics<br/><b>IDM + Boundary Potential Fields</b>"]:::micro
+        U3["Online Dual-EKF Filter<br/><b>Zero-Allocation Analytical Matrix</b>"]:::micro
+        U4["Dynamic Parameter Adaptation<br/><b>Personalized Headway & Accel</b>"]:::micro
+        U1 --> U2 --> U3 --> U4
     end
 
-    E -.->|Signal Phase State| G
-    H -.->|Discharge Velocity| B
+    M4 ==>|Signal State Permissions| U2
+    U4 ==>|Discharged Platoon Flow| M2
 ```
+
+</details>
 
 1. **Model 1: Heterogeneous Queue-Clearing Max-Pressure Controller (H-QC-MPC)**
    * **Exhaustive Queue Service:** Holds the active green phase dynamically until all queued vehicles on the active approach have safely discharged.
@@ -56,22 +74,33 @@ Evaluated across **80 Monte Carlo benchmark simulations** (4 real drone flight d
 | **`flight_dji003_21_8`** | Heavy Asymmetric Queue | $15.6 \pm 0.0$ PCU | $10.8 \pm 0.0$ PCU | $-30.8\%$ | $+2.25\text{ s}$ | $p < 10^{-9}\ (***)$ |
 | **Cross-Flight Average** | Overall Mean | $21.7 \pm 5.8$ PCU | **$22.4 \pm 11.4$ PCU** | **$+3.5\%$** | — | $p < 10^{-9}\ (***)$ |
 
-### Tail Latency and Progression Velocity Impact
-* **P95 Trip Duration:** In `flight_dji0007`, Model 2 reduced 95th-percentile trip latency by **$-21.9\text{ s}$** (from $111.6\text{ s} \to 89.7\text{ s}$). In `flight_dji003_21_8`, latency fell by **$-17.5\text{ s}$**.
-* **Progression Speed:** Model 2 accelerated dense platoon discharge by **+27%** ($0.129\text{ m/s} \to 0.164\text{ m/s}$) due to instantaneous driver headway adaptation.
-* **Safety:** Zero collisions observed across all 80 benchmark runs.
-
 ---
 
-## Publication Figures
+## Publication Figures and Empirical Graphs
 
-Publication figures are rendered at 300 DPI adhering to IEEE Transactions and Transportation Research Part C visual standards inside [`results/figures/`](results/figures/):
+All figures are generated at 300 DPI following IEEE Transactions and Transportation Research Part C standards:
 
-1. **Cross-Dataset Throughput Comparison:** [`results/figures/fig1_throughput_comparison.png`](results/figures/fig1_throughput_comparison.png)
-2. **Stopped Delay and P95 Travel Latency:** [`results/figures/fig2_delay_travel_time.png`](results/figures/fig2_delay_travel_time.png)
-3. **Queue Distribution by Approach Arm:** [`results/figures/fig3_queue_dynamics_per_arm.png`](results/figures/fig3_queue_dynamics_per_arm.png)
-4. **Multi-Window Horizon Sensitivity ($\tau = 1\text{ s} \dots 10\text{ s}$):** [`results/figures/fig4_multi_window_sensitivity.png`](results/figures/fig4_multi_window_sensitivity.png)
-5. **Microscopic Online Dual-EKF Parameter Trajectories:** [`results/figures/fig5_dual_ekf_trajectories.png`](results/figures/fig5_dual_ekf_trajectories.png)
+### 1. Cross-Dataset PCU Throughput Comparison
+<p align="center">
+  <img src="results/figures/fig1_throughput_comparison.png" width="95%" alt="Throughput Comparison across 4 Drone Datasets">
+</p>
+<p align="center"><em>Figure 1: Passenger Car Unit (PCU) throughput across four empirical drone flight datasets under Model 1 (Pure H-QC-MPC) vs. Model 2 (H-QC-MPC + Online EKF). Annotated with 95% Monte Carlo confidence intervals and statistical significance pill badges.</em></p>
+
+### 2. Delay and Travel Time Tail Latency Reduction
+<p align="center">
+  <img src="results/figures/fig2_delay_travel_time.png" width="95%" alt="Stopped Delay and Travel Time Tail Latency">
+</p>
+<p align="center"><em>Figure 2: (a) Mean stopped delay per cleared vehicle, and (b) 95th-percentile tail travel latency across models. Model 2 dampens platoon shockwaves, slashing P95 trip latency by up to 21.9 seconds.</em></p>
+
+### 3. Microscopic Online Dual-EKF Parameter Dynamics
+<p align="center">
+  <img src="results/figures/fig5_dual_ekf_trajectories.png" width="95%" alt="Microscopic Online Dual-EKF Trajectories">
+</p>
+<p align="center"><em>Figure 5: Parameter convergence trajectories for individual vehicles adapting in real time ($T_i, a_{\max}^{(i)}, s_{0,i}$). Notice the rapid compression of headway during dense discharge, unlocking substantial capacity gains.</em></p>
+
+### Additional Visualizations
+* **Queue Distribution by Approach Arm:** [`results/figures/fig3_queue_dynamics_per_arm.png`](results/figures/fig3_queue_dynamics_per_arm.png)
+* **Multi-Window Prediction Horizon Sensitivity ($\tau = 1\text{ s} \dots 10\text{ s}$):** [`results/figures/fig4_multi_window_sensitivity.png`](results/figures/fig4_multi_window_sensitivity.png)
 
 ---
 

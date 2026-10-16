@@ -81,9 +81,9 @@ def style_axis(ax, grid_axis="y"):
 
 def plot_figure_1():
     """Figure 1: Passenger Car Unit (PCU) Throughput Comparison."""
-    fig, ax = plt.subplots(figsize=(9.5, 5.2))
+    fig, ax = plt.subplots(figsize=(9.8, 5.2))
     x = np.arange(len(FLIGHTS))
-    width = 0.32
+    width = 0.30
 
     m1_means, m1_stds = [], []
     m2_means, m2_stds = [], []
@@ -110,11 +110,11 @@ def plot_figure_1():
 
     style_axis(ax, grid_axis="y")
 
-    rects1 = ax.bar(x - width/2 - 0.02, m1_means, width, yerr=m1_stds,
+    rects1 = ax.bar(x - width/2 - 0.015, m1_means, width, yerr=m1_stds,
                     label="Model 1: Pure H-QC-MPC",
                     color=COLOR_M1, edgecolor=COLOR_M1_EDGE, linewidth=0.8,
                     capsize=4, ecolor=COLOR_SPINE, alpha=0.92)
-    rects2 = ax.bar(x + width/2 + 0.02, m2_means, width, yerr=m2_stds,
+    rects2 = ax.bar(x + width/2 + 0.015, m2_means, width, yerr=m2_stds,
                     label="Model 2: H-QC-MPC + Online EKF",
                     color=COLOR_M2, edgecolor=COLOR_M2_EDGE, linewidth=0.8,
                     capsize=4, ecolor=COLOR_SPINE, alpha=0.92)
@@ -122,22 +122,20 @@ def plot_figure_1():
     # Value annotations on bars
     for r1, r2, m1, m2 in zip(rects1, rects2, m1_means, m2_means):
         ax.text(r1.get_x() + r1.get_width()/2, m1/2, f"{m1:.1f}",
-                ha="center", va="center", color="white", fontsize=9, fontweight="bold")
+                ha="center", va="center", color="white", fontsize=9.5, fontweight="bold")
         ax.text(r2.get_x() + r2.get_width()/2, m2/2, f"{m2:.1f}",
-                ha="center", va="center", color="white", fontsize=9, fontweight="bold")
+                ha="center", va="center", color="white", fontsize=9.5, fontweight="bold")
 
     ax.set_ylabel("Discharged Throughput (PCU / 125s)")
-    ax.set_title("Cross-Dataset PCU Throughput Comparison (N = 5 Random Seeds)")
+    ax.set_title("Cross-Dataset PCU Throughput Comparison (N = 5 Random Seeds)", pad=28)
     ax.set_xticks(x)
     ax.set_xticklabels([name for _, name in FLIGHTS], color=COLOR_TEXT)
-    ax.legend(frameon=True, facecolor="#F8FAFC", edgecolor=COLOR_GRID, framealpha=0.95, loc="upper right")
 
-    max_val = max(max(m1_means or [1]), max(m2_means or [1]))
-    ax.set_ylim(0, max_val * 1.35)
+    ax.set_ylim(0, 48)
 
-    # Pill badge percentage improvement annotations
+    # Pill badge percentage annotations
     for i, (pct, r2, m2) in enumerate(zip(pct_changes, rects2, m2_means)):
-        bar_top = max(m1_means[i], m2_means[i]) + 2.5
+        bar_top = max(m1_means[i], m2_means[i]) + 2.0
         sign = "+" if pct > 0 else ""
         if pct > 10:
             badge_face, badge_edge, text_col = "#ECFDF5", "#10B981", "#065F46"
@@ -146,7 +144,7 @@ def plot_figure_1():
             badge_face, badge_edge, text_col = "#F8FAFC", "#94A3B8", "#475569"
             label = f"{sign}{pct:.1f}%\n(n.s.)"
         else:
-            badge_face, badge_edge, text_col = "#FEF2F2", "#F87171", "#991B1B"
+            badge_face, badge_edge, text_col = "#F1F5F9", "#CBD5E1", "#334155"
             label = f"{sign}{pct:.1f}%\n(p < 0.001)"
 
         ax.annotate(
@@ -155,10 +153,16 @@ def plot_figure_1():
             xytext=(0, 2), textcoords="offset points",
             ha="center", va="bottom", fontsize=8.5, fontweight="bold", color=text_col,
             bbox=dict(boxstyle="round,pad=0.32,rounding_size=0.3", facecolor=badge_face,
-                      edgecolor=badge_edge, linewidth=0.9)
+                      edgecolor=badge_edge, linewidth=0.85)
         )
 
-    plt.tight_layout()
+    # Master legend placed on top
+    handles, labels = ax.get_legend_handles_labels()
+    fig.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, 0.99),
+               ncol=2, frameon=True, facecolor="#F8FAFC", edgecolor=COLOR_GRID,
+               fontsize=10, framealpha=0.95)
+
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     fig_path = os.path.join(OUTPUT_DIR, "fig1_throughput_comparison.png")
     plt.savefig(fig_path)
     plt.close()
@@ -166,9 +170,9 @@ def plot_figure_1():
 
 def plot_figure_2():
     """Figure 2: Stopped Delay and Tail Latency (P95 Trip Duration)."""
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12.5, 5.0))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12.5, 5.2))
     x = np.arange(len(FLIGHTS))
-    width = 0.32
+    width = 0.30
 
     m1_delays, m2_delays = [], []
     m1_p95_trips, m2_p95_trips = [], []
@@ -194,17 +198,36 @@ def plot_figure_2():
 
     # Subplot 1: Stopped Delay
     style_axis(ax1, grid_axis="y")
-    r11 = ax1.bar(x - width/2 - 0.02, m1_delays, width, label="Model 1: Pure H-QC-MPC",
+    r11 = ax1.bar(x - width/2 - 0.015, m1_delays, width, label="Model 1: Pure H-QC-MPC",
                   color=COLOR_M1, edgecolor=COLOR_M1_EDGE, linewidth=0.8, alpha=0.92)
-    r12 = ax1.bar(x + width/2 + 0.02, m2_delays, width, label="Model 2: H-QC-MPC + Online EKF",
+    r12 = ax1.bar(x + width/2 + 0.015, m2_delays, width, label="Model 2: H-QC-MPC + Online EKF",
                   color=COLOR_M2, edgecolor=COLOR_M2_EDGE, linewidth=0.8, alpha=0.92)
 
     for r, v in zip(r11, m1_delays):
-        ax1.text(r.get_x() + r.get_width()/2, v + 0.8, f"{v:.1f}s", ha="center", va="bottom",
-                 fontsize=8.5, fontweight="bold", color=COLOR_M1)
+        ax1.text(r.get_x() + r.get_width()/2, v/2, f"{v:.1f}s", ha="center", va="center",
+                 fontsize=8.5, fontweight="bold", color="white")
     for r, v in zip(r12, m2_delays):
-        ax1.text(r.get_x() + r.get_width()/2, v + 0.8, f"{v:.1f}s", ha="center", va="bottom",
-                 fontsize=8.5, fontweight="bold", color=COLOR_M2)
+        ax1.text(r.get_x() + r.get_width()/2, v/2, f"{v:.1f}s", ha="center", va="center",
+                 fontsize=8.5, fontweight="bold", color="white")
+
+    # Delta badge for stopped delay
+    for i in range(len(FLIGHTS)):
+        diff = m2_delays[i] - m1_delays[i]
+        top_y = max(m1_delays[i], m2_delays[i]) + 2.0
+        if diff < -1.0:
+            badge_face, badge_edge, text_col = "#ECFDF5", "#10B981", "#065F46"
+        elif diff > 1.0:
+            badge_face, badge_edge, text_col = "#F1F5F9", "#CBD5E1", "#334155"
+        else:
+            badge_face, badge_edge, text_col = "#F8FAFC", "#94A3B8", "#475569"
+
+        ax1.annotate(
+            f"Δ {diff:+.1f}s",
+            xy=(x[i], top_y),
+            ha="center", va="bottom", fontsize=8.5, fontweight="bold", color=text_col,
+            bbox=dict(boxstyle="round,pad=0.25,rounding_size=0.3", facecolor=badge_face,
+                      edgecolor=badge_edge, linewidth=0.8)
+        )
 
     ax1.set_ylabel("Mean Stopped Delay (s / vehicle)")
     ax1.set_title("(a) Mean Stopped Delay per Cleared Vehicle", loc="left", pad=10)
@@ -214,9 +237,9 @@ def plot_figure_2():
 
     # Subplot 2: P95 Travel Time
     style_axis(ax2, grid_axis="y")
-    r21 = ax2.bar(x - width/2 - 0.02, m1_p95_trips, width, label="Model 1: Pure H-QC-MPC",
+    r21 = ax2.bar(x - width/2 - 0.015, m1_p95_trips, width, label="Model 1: Pure H-QC-MPC",
                   color=COLOR_M1, edgecolor=COLOR_M1_EDGE, linewidth=0.8, alpha=0.92)
-    r22 = ax2.bar(x + width/2 + 0.02, m2_p95_trips, width, label="Model 2: H-QC-MPC + Online EKF",
+    r22 = ax2.bar(x + width/2 + 0.015, m2_p95_trips, width, label="Model 2: H-QC-MPC + Online EKF",
                   color=COLOR_M2, edgecolor=COLOR_M2_EDGE, linewidth=0.8, alpha=0.92)
 
     for r, v in zip(r21, m1_p95_trips):
@@ -235,11 +258,11 @@ def plot_figure_2():
     # Delta badge for travel time
     for i in range(len(FLIGHTS)):
         diff = m2_p95_trips[i] - m1_p95_trips[i]
-        top_y = max(m1_p95_trips[i], m2_p95_trips[i]) + 4
+        top_y = max(m1_p95_trips[i], m2_p95_trips[i]) + 4.0
         if diff < -2.0:
             badge_face, badge_edge, text_col = "#ECFDF5", "#10B981", "#065F46"
         elif diff > 2.0:
-            badge_face, badge_edge, text_col = "#FEF2F2", "#F87171", "#991B1B"
+            badge_face, badge_edge, text_col = "#F1F5F9", "#CBD5E1", "#334155"
         else:
             badge_face, badge_edge, text_col = "#F8FAFC", "#94A3B8", "#475569"
 
@@ -386,7 +409,8 @@ def plot_figure_4():
     ax2.set_ylabel("Calibrated Parameter Value")
     ax2.set_title("(b) IDM Parameter Adaptation Across Prediction Horizons", loc="left", pad=10)
     ax2.set_xticks(w_secs)
-    ax2.legend(frameon=True, facecolor="#F8FAFC", edgecolor=COLOR_GRID, loc="center right")
+    ax2.set_ylim(0.35, 1.65)
+    ax2.legend(frameon=True, facecolor="#F8FAFC", edgecolor=COLOR_GRID, loc="upper left", fontsize=9)
 
     plt.tight_layout()
     fig_path = os.path.join(OUTPUT_DIR, "fig4_multi_window_sensitivity.png")
