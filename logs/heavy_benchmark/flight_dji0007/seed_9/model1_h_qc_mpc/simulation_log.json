@@ -1,0 +1,6862 @@
+[
+  {
+    "step": 0,
+    "sim_frame": 0,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 1,
+    "queues": {
+      "2": 8,
+      "4": 0,
+      "6": 5,
+      "8": 7
+    },
+    "active_cars_total": 31
+  },
+  {
+    "step": 1,
+    "sim_frame": 1,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 1,
+    "queues": {
+      "2": 10,
+      "4": 0,
+      "6": 4,
+      "8": 8
+    },
+    "active_cars_total": 35
+  },
+  {
+    "step": 2,
+    "sim_frame": 2,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 2,
+    "queues": {
+      "2": 10,
+      "4": 0,
+      "6": 4,
+      "8": 7
+    },
+    "active_cars_total": 36
+  },
+  {
+    "step": 3,
+    "sim_frame": 3,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 2,
+    "queues": {
+      "2": 8,
+      "4": 0,
+      "6": 1,
+      "8": 7
+    },
+    "active_cars_total": 37
+  },
+  {
+    "step": 4,
+    "sim_frame": 4,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 2,
+    "queues": {
+      "2": 7,
+      "4": 0,
+      "6": 2,
+      "8": 6
+    },
+    "active_cars_total": 38
+  },
+  {
+    "step": 5,
+    "sim_frame": 5,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 2,
+    "queues": {
+      "2": 6,
+      "4": 0,
+      "6": 3,
+      "8": 7
+    },
+    "active_cars_total": 40
+  },
+  {
+    "step": 6,
+    "sim_frame": 6,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 2,
+    "queues": {
+      "2": 6,
+      "4": 0,
+      "6": 4,
+      "8": 7
+    },
+    "active_cars_total": 43
+  },
+  {
+    "step": 7,
+    "sim_frame": 7,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 6,
+      "4": 0,
+      "6": 6,
+      "8": 6
+    },
+    "active_cars_total": 45
+  },
+  {
+    "step": 8,
+    "sim_frame": 8,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 5,
+      "4": 0,
+      "6": 5,
+      "8": 6
+    },
+    "active_cars_total": 45
+  },
+  {
+    "step": 9,
+    "sim_frame": 9,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 5,
+      "4": 0,
+      "6": 5,
+      "8": 6
+    },
+    "active_cars_total": 46
+  },
+  {
+    "step": 10,
+    "sim_frame": 10,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 6,
+      "4": 0,
+      "6": 4,
+      "8": 5
+    },
+    "active_cars_total": 48
+  },
+  {
+    "step": 11,
+    "sim_frame": 11,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 4,
+      "4": 0,
+      "6": 5,
+      "8": 6
+    },
+    "active_cars_total": 52
+  },
+  {
+    "step": 12,
+    "sim_frame": 12,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 4,
+      "4": 0,
+      "6": 5,
+      "8": 8
+    },
+    "active_cars_total": 54
+  },
+  {
+    "step": 13,
+    "sim_frame": 13,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 4,
+      "4": 0,
+      "6": 6,
+      "8": 9
+    },
+    "active_cars_total": 55
+  },
+  {
+    "step": 14,
+    "sim_frame": 14,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 5,
+      "4": 0,
+      "6": 8,
+      "8": 9
+    },
+    "active_cars_total": 57
+  },
+  {
+    "step": 15,
+    "sim_frame": 15,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 4,
+      "4": 0,
+      "6": 8,
+      "8": 13
+    },
+    "active_cars_total": 58
+  },
+  {
+    "step": 16,
+    "sim_frame": 16,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 4,
+      "4": 0,
+      "6": 9,
+      "8": 13
+    },
+    "active_cars_total": 59
+  },
+  {
+    "step": 17,
+    "sim_frame": 17,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 8,
+      "4": 0,
+      "6": 9,
+      "8": 12
+    },
+    "active_cars_total": 60
+  },
+  {
+    "step": 18,
+    "sim_frame": 18,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 8,
+      "4": 0,
+      "6": 8,
+      "8": 13
+    },
+    "active_cars_total": 62
+  },
+  {
+    "step": 19,
+    "sim_frame": 19,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 7,
+      "4": 0,
+      "6": 8,
+      "8": 14
+    },
+    "active_cars_total": 62
+  },
+  {
+    "step": 20,
+    "sim_frame": 20,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 6,
+      "4": 0,
+      "6": 8,
+      "8": 14
+    },
+    "active_cars_total": 62
+  },
+  {
+    "step": 21,
+    "sim_frame": 21,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 4,
+      "4": 0,
+      "6": 11,
+      "8": 14
+    },
+    "active_cars_total": 64
+  },
+  {
+    "step": 22,
+    "sim_frame": 22,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 4,
+      "4": 0,
+      "6": 10,
+      "8": 14
+    },
+    "active_cars_total": 66
+  },
+  {
+    "step": 23,
+    "sim_frame": 23,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 5,
+      "4": 0,
+      "6": 10,
+      "8": 19
+    },
+    "active_cars_total": 71
+  },
+  {
+    "step": 24,
+    "sim_frame": 24,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 8,
+      "4": 0,
+      "6": 10,
+      "8": 21
+    },
+    "active_cars_total": 71
+  },
+  {
+    "step": 25,
+    "sim_frame": 25,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 8,
+      "4": 0,
+      "6": 10,
+      "8": 22
+    },
+    "active_cars_total": 72
+  },
+  {
+    "step": 26,
+    "sim_frame": 26,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 9,
+      "4": 0,
+      "6": 10,
+      "8": 22
+    },
+    "active_cars_total": 73
+  },
+  {
+    "step": 27,
+    "sim_frame": 27,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 9,
+      "4": 0,
+      "6": 10,
+      "8": 20
+    },
+    "active_cars_total": 73
+  },
+  {
+    "step": 28,
+    "sim_frame": 28,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 3,
+    "queues": {
+      "2": 9,
+      "4": 0,
+      "6": 10,
+      "8": 20
+    },
+    "active_cars_total": 76
+  },
+  {
+    "step": 29,
+    "sim_frame": 29,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 4,
+    "queues": {
+      "2": 9,
+      "4": 0,
+      "6": 10,
+      "8": 21
+    },
+    "active_cars_total": 77
+  },
+  {
+    "step": 30,
+    "sim_frame": 30,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 4,
+    "queues": {
+      "2": 7,
+      "4": 0,
+      "6": 10,
+      "8": 22
+    },
+    "active_cars_total": 78
+  },
+  {
+    "step": 31,
+    "sim_frame": 31,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 4,
+    "queues": {
+      "2": 5,
+      "4": 0,
+      "6": 10,
+      "8": 24
+    },
+    "active_cars_total": 81
+  },
+  {
+    "step": 32,
+    "sim_frame": 32,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 4,
+    "queues": {
+      "2": 6,
+      "4": 0,
+      "6": 11,
+      "8": 24
+    },
+    "active_cars_total": 82
+  },
+  {
+    "step": 33,
+    "sim_frame": 33,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 5,
+    "queues": {
+      "2": 7,
+      "4": 0,
+      "6": 12,
+      "8": 24
+    },
+    "active_cars_total": 83
+  },
+  {
+    "step": 34,
+    "sim_frame": 34,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 5,
+    "queues": {
+      "2": 6,
+      "4": 0,
+      "6": 14,
+      "8": 24
+    },
+    "active_cars_total": 83
+  },
+  {
+    "step": 35,
+    "sim_frame": 35,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 5,
+    "queues": {
+      "2": 5,
+      "4": 0,
+      "6": 15,
+      "8": 24
+    },
+    "active_cars_total": 85
+  },
+  {
+    "step": 36,
+    "sim_frame": 36,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 5,
+    "queues": {
+      "2": 4,
+      "4": 0,
+      "6": 17,
+      "8": 24
+    },
+    "active_cars_total": 87
+  },
+  {
+    "step": 37,
+    "sim_frame": 37,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 5,
+    "queues": {
+      "2": 4,
+      "4": 1,
+      "6": 17,
+      "8": 22
+    },
+    "active_cars_total": 87
+  },
+  {
+    "step": 38,
+    "sim_frame": 38,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 5,
+    "queues": {
+      "2": 4,
+      "4": 1,
+      "6": 17,
+      "8": 20
+    },
+    "active_cars_total": 87
+  },
+  {
+    "step": 39,
+    "sim_frame": 39,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 5,
+    "queues": {
+      "2": 3,
+      "4": 1,
+      "6": 16,
+      "8": 16
+    },
+    "active_cars_total": 88
+  },
+  {
+    "step": 40,
+    "sim_frame": 40,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 5,
+    "queues": {
+      "2": 2,
+      "4": 1,
+      "6": 15,
+      "8": 20
+    },
+    "active_cars_total": 90
+  },
+  {
+    "step": 41,
+    "sim_frame": 41,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 6,
+    "queues": {
+      "2": 2,
+      "4": 2,
+      "6": 17,
+      "8": 22
+    },
+    "active_cars_total": 90
+  },
+  {
+    "step": 42,
+    "sim_frame": 42,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 6,
+    "queues": {
+      "2": 2,
+      "4": 2,
+      "6": 16,
+      "8": 24
+    },
+    "active_cars_total": 91
+  },
+  {
+    "step": 43,
+    "sim_frame": 43,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 6,
+    "queues": {
+      "2": 3,
+      "4": 2,
+      "6": 16,
+      "8": 25
+    },
+    "active_cars_total": 93
+  },
+  {
+    "step": 44,
+    "sim_frame": 44,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 6,
+    "queues": {
+      "2": 6,
+      "4": 2,
+      "6": 16,
+      "8": 25
+    },
+    "active_cars_total": 95
+  },
+  {
+    "step": 45,
+    "sim_frame": 45,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 6,
+    "queues": {
+      "2": 7,
+      "4": 2,
+      "6": 17,
+      "8": 25
+    },
+    "active_cars_total": 98
+  },
+  {
+    "step": 46,
+    "sim_frame": 46,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 6,
+    "queues": {
+      "2": 8,
+      "4": 5,
+      "6": 19,
+      "8": 25
+    },
+    "active_cars_total": 100
+  },
+  {
+    "step": 47,
+    "sim_frame": 47,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 6,
+    "queues": {
+      "2": 7,
+      "4": 5,
+      "6": 20,
+      "8": 26
+    },
+    "active_cars_total": 103
+  },
+  {
+    "step": 48,
+    "sim_frame": 48,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 11,
+      "4": 5,
+      "6": 23,
+      "8": 26
+    },
+    "active_cars_total": 104
+  },
+  {
+    "step": 49,
+    "sim_frame": 49,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 12,
+      "4": 5,
+      "6": 20,
+      "8": 26
+    },
+    "active_cars_total": 105
+  },
+  {
+    "step": 50,
+    "sim_frame": 50,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 12,
+      "4": 5,
+      "6": 21,
+      "8": 27
+    },
+    "active_cars_total": 105
+  },
+  {
+    "step": 51,
+    "sim_frame": 51,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 12,
+      "4": 5,
+      "6": 21,
+      "8": 28
+    },
+    "active_cars_total": 105
+  },
+  {
+    "step": 52,
+    "sim_frame": 52,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 13,
+      "4": 6,
+      "6": 21,
+      "8": 29
+    },
+    "active_cars_total": 110
+  },
+  {
+    "step": 53,
+    "sim_frame": 53,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 16,
+      "4": 6,
+      "6": 22,
+      "8": 29
+    },
+    "active_cars_total": 110
+  },
+  {
+    "step": 54,
+    "sim_frame": 54,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 15,
+      "4": 5,
+      "6": 22,
+      "8": 29
+    },
+    "active_cars_total": 113
+  },
+  {
+    "step": 55,
+    "sim_frame": 55,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 18,
+      "4": 5,
+      "6": 23,
+      "8": 29
+    },
+    "active_cars_total": 114
+  },
+  {
+    "step": 56,
+    "sim_frame": 56,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 20,
+      "4": 6,
+      "6": 23,
+      "8": 29
+    },
+    "active_cars_total": 115
+  },
+  {
+    "step": 57,
+    "sim_frame": 57,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 20,
+      "4": 6,
+      "6": 24,
+      "8": 30
+    },
+    "active_cars_total": 116
+  },
+  {
+    "step": 58,
+    "sim_frame": 58,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 19,
+      "4": 8,
+      "6": 24,
+      "8": 30
+    },
+    "active_cars_total": 120
+  },
+  {
+    "step": 59,
+    "sim_frame": 59,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 7,
+    "queues": {
+      "2": 18,
+      "4": 8,
+      "6": 27,
+      "8": 30
+    },
+    "active_cars_total": 123
+  },
+  {
+    "step": 60,
+    "sim_frame": 60,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 8,
+    "queues": {
+      "2": 22,
+      "4": 10,
+      "6": 28,
+      "8": 30
+    },
+    "active_cars_total": 127
+  },
+  {
+    "step": 61,
+    "sim_frame": 61,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 8,
+    "queues": {
+      "2": 19,
+      "4": 10,
+      "6": 30,
+      "8": 32
+    },
+    "active_cars_total": 132
+  },
+  {
+    "step": 62,
+    "sim_frame": 62,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 8,
+    "queues": {
+      "2": 16,
+      "4": 11,
+      "6": 32,
+      "8": 32
+    },
+    "active_cars_total": 134
+  },
+  {
+    "step": 63,
+    "sim_frame": 63,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 8,
+    "queues": {
+      "2": 18,
+      "4": 12,
+      "6": 33,
+      "8": 33
+    },
+    "active_cars_total": 134
+  },
+  {
+    "step": 64,
+    "sim_frame": 64,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 9,
+    "queues": {
+      "2": 19,
+      "4": 12,
+      "6": 33,
+      "8": 33
+    },
+    "active_cars_total": 137
+  },
+  {
+    "step": 65,
+    "sim_frame": 65,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 9,
+    "queues": {
+      "2": 20,
+      "4": 12,
+      "6": 34,
+      "8": 33
+    },
+    "active_cars_total": 139
+  },
+  {
+    "step": 66,
+    "sim_frame": 66,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 9,
+    "queues": {
+      "2": 22,
+      "4": 12,
+      "6": 34,
+      "8": 32
+    },
+    "active_cars_total": 140
+  },
+  {
+    "step": 67,
+    "sim_frame": 67,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 9,
+    "queues": {
+      "2": 22,
+      "4": 12,
+      "6": 36,
+      "8": 32
+    },
+    "active_cars_total": 140
+  },
+  {
+    "step": 68,
+    "sim_frame": 68,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 8,
+    "queues": {
+      "2": 21,
+      "4": 11,
+      "6": 36,
+      "8": 32
+    },
+    "active_cars_total": 140
+  },
+  {
+    "step": 69,
+    "sim_frame": 69,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 8,
+    "queues": {
+      "2": 18,
+      "4": 10,
+      "6": 36,
+      "8": 32
+    },
+    "active_cars_total": 141
+  },
+  {
+    "step": 70,
+    "sim_frame": 70,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 8,
+    "queues": {
+      "2": 17,
+      "4": 10,
+      "6": 36,
+      "8": 32
+    },
+    "active_cars_total": 143
+  },
+  {
+    "step": 71,
+    "sim_frame": 71,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 8,
+    "queues": {
+      "2": 19,
+      "4": 10,
+      "6": 37,
+      "8": 33
+    },
+    "active_cars_total": 145
+  },
+  {
+    "step": 72,
+    "sim_frame": 72,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 8,
+    "queues": {
+      "2": 19,
+      "4": 10,
+      "6": 37,
+      "8": 34
+    },
+    "active_cars_total": 148
+  },
+  {
+    "step": 73,
+    "sim_frame": 73,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 10,
+    "queues": {
+      "2": 23,
+      "4": 10,
+      "6": 40,
+      "8": 34
+    },
+    "active_cars_total": 151
+  },
+  {
+    "step": 74,
+    "sim_frame": 74,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 10,
+    "queues": {
+      "2": 25,
+      "4": 10,
+      "6": 40,
+      "8": 34
+    },
+    "active_cars_total": 153
+  },
+  {
+    "step": 75,
+    "sim_frame": 75,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 10,
+    "queues": {
+      "2": 25,
+      "4": 9,
+      "6": 41,
+      "8": 34
+    },
+    "active_cars_total": 153
+  },
+  {
+    "step": 76,
+    "sim_frame": 76,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 10,
+    "queues": {
+      "2": 25,
+      "4": 10,
+      "6": 41,
+      "8": 34
+    },
+    "active_cars_total": 154
+  },
+  {
+    "step": 77,
+    "sim_frame": 77,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 10,
+    "queues": {
+      "2": 22,
+      "4": 11,
+      "6": 41,
+      "8": 34
+    },
+    "active_cars_total": 156
+  },
+  {
+    "step": 78,
+    "sim_frame": 78,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 10,
+    "queues": {
+      "2": 22,
+      "4": 11,
+      "6": 42,
+      "8": 34
+    },
+    "active_cars_total": 156
+  },
+  {
+    "step": 79,
+    "sim_frame": 79,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 10,
+    "queues": {
+      "2": 22,
+      "4": 10,
+      "6": 42,
+      "8": 34
+    },
+    "active_cars_total": 158
+  },
+  {
+    "step": 80,
+    "sim_frame": 80,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 10,
+    "queues": {
+      "2": 20,
+      "4": 11,
+      "6": 42,
+      "8": 34
+    },
+    "active_cars_total": 158
+  },
+  {
+    "step": 81,
+    "sim_frame": 81,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 10,
+    "queues": {
+      "2": 18,
+      "4": 9,
+      "6": 43,
+      "8": 34
+    },
+    "active_cars_total": 160
+  },
+  {
+    "step": 82,
+    "sim_frame": 82,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 12,
+    "queues": {
+      "2": 15,
+      "4": 10,
+      "6": 43,
+      "8": 34
+    },
+    "active_cars_total": 161
+  },
+  {
+    "step": 83,
+    "sim_frame": 83,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 12,
+    "queues": {
+      "2": 18,
+      "4": 10,
+      "6": 44,
+      "8": 34
+    },
+    "active_cars_total": 162
+  },
+  {
+    "step": 84,
+    "sim_frame": 84,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 12,
+    "queues": {
+      "2": 22,
+      "4": 11,
+      "6": 44,
+      "8": 34
+    },
+    "active_cars_total": 163
+  },
+  {
+    "step": 85,
+    "sim_frame": 85,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 12,
+    "queues": {
+      "2": 23,
+      "4": 12,
+      "6": 44,
+      "8": 34
+    },
+    "active_cars_total": 165
+  },
+  {
+    "step": 86,
+    "sim_frame": 86,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 21,
+      "4": 14,
+      "6": 44,
+      "8": 34
+    },
+    "active_cars_total": 165
+  },
+  {
+    "step": 87,
+    "sim_frame": 87,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 19,
+      "4": 16,
+      "6": 44,
+      "8": 34
+    },
+    "active_cars_total": 165
+  },
+  {
+    "step": 88,
+    "sim_frame": 88,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 12,
+    "queues": {
+      "2": 22,
+      "4": 15,
+      "6": 44,
+      "8": 34
+    },
+    "active_cars_total": 165
+  },
+  {
+    "step": 89,
+    "sim_frame": 89,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 12,
+    "queues": {
+      "2": 23,
+      "4": 14,
+      "6": 45,
+      "8": 34
+    },
+    "active_cars_total": 166
+  },
+  {
+    "step": 90,
+    "sim_frame": 90,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 20,
+      "4": 15,
+      "6": 46,
+      "8": 34
+    },
+    "active_cars_total": 169
+  },
+  {
+    "step": 91,
+    "sim_frame": 91,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 21,
+      "4": 17,
+      "6": 46,
+      "8": 34
+    },
+    "active_cars_total": 170
+  },
+  {
+    "step": 92,
+    "sim_frame": 92,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 22,
+      "4": 19,
+      "6": 47,
+      "8": 34
+    },
+    "active_cars_total": 172
+  },
+  {
+    "step": 93,
+    "sim_frame": 93,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 22,
+      "4": 21,
+      "6": 48,
+      "8": 34
+    },
+    "active_cars_total": 173
+  },
+  {
+    "step": 94,
+    "sim_frame": 94,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 27,
+      "4": 22,
+      "6": 48,
+      "8": 34
+    },
+    "active_cars_total": 174
+  },
+  {
+    "step": 95,
+    "sim_frame": 95,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 29,
+      "4": 24,
+      "6": 48,
+      "8": 34
+    },
+    "active_cars_total": 175
+  },
+  {
+    "step": 96,
+    "sim_frame": 96,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 28,
+      "4": 26,
+      "6": 48,
+      "8": 34
+    },
+    "active_cars_total": 175
+  },
+  {
+    "step": 97,
+    "sim_frame": 97,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 24,
+      "4": 26,
+      "6": 48,
+      "8": 34
+    },
+    "active_cars_total": 177
+  },
+  {
+    "step": 98,
+    "sim_frame": 98,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 23,
+      "4": 27,
+      "6": 50,
+      "8": 34
+    },
+    "active_cars_total": 178
+  },
+  {
+    "step": 99,
+    "sim_frame": 99,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 22,
+      "4": 26,
+      "6": 50,
+      "8": 34
+    },
+    "active_cars_total": 179
+  },
+  {
+    "step": 100,
+    "sim_frame": 100,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 20,
+      "4": 27,
+      "6": 50,
+      "8": 34
+    },
+    "active_cars_total": 180
+  },
+  {
+    "step": 101,
+    "sim_frame": 101,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 19,
+      "4": 27,
+      "6": 50,
+      "8": 34
+    },
+    "active_cars_total": 180
+  },
+  {
+    "step": 102,
+    "sim_frame": 102,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 16,
+      "4": 27,
+      "6": 50,
+      "8": 34
+    },
+    "active_cars_total": 182
+  },
+  {
+    "step": 103,
+    "sim_frame": 103,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 13,
+    "queues": {
+      "2": 15,
+      "4": 28,
+      "6": 50,
+      "8": 34
+    },
+    "active_cars_total": 182
+  },
+  {
+    "step": 104,
+    "sim_frame": 104,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 14,
+    "queues": {
+      "2": 21,
+      "4": 29,
+      "6": 50,
+      "8": 35
+    },
+    "active_cars_total": 185
+  },
+  {
+    "step": 105,
+    "sim_frame": 105,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 14,
+    "queues": {
+      "2": 29,
+      "4": 28,
+      "6": 52,
+      "8": 34
+    },
+    "active_cars_total": 186
+  },
+  {
+    "step": 106,
+    "sim_frame": 106,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 14,
+    "queues": {
+      "2": 32,
+      "4": 30,
+      "6": 54,
+      "8": 34
+    },
+    "active_cars_total": 188
+  },
+  {
+    "step": 107,
+    "sim_frame": 107,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 14,
+    "queues": {
+      "2": 35,
+      "4": 29,
+      "6": 54,
+      "8": 34
+    },
+    "active_cars_total": 189
+  },
+  {
+    "step": 108,
+    "sim_frame": 108,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 14,
+    "queues": {
+      "2": 34,
+      "4": 29,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 190
+  },
+  {
+    "step": 109,
+    "sim_frame": 109,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 14,
+    "queues": {
+      "2": 31,
+      "4": 31,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 190
+  },
+  {
+    "step": 110,
+    "sim_frame": 110,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 14,
+    "queues": {
+      "2": 21,
+      "4": 31,
+      "6": 57,
+      "8": 34
+    },
+    "active_cars_total": 191
+  },
+  {
+    "step": 111,
+    "sim_frame": 111,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 14,
+    "queues": {
+      "2": 19,
+      "4": 31,
+      "6": 57,
+      "8": 34
+    },
+    "active_cars_total": 191
+  },
+  {
+    "step": 112,
+    "sim_frame": 112,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 14,
+    "queues": {
+      "2": 18,
+      "4": 31,
+      "6": 57,
+      "8": 34
+    },
+    "active_cars_total": 192
+  },
+  {
+    "step": 113,
+    "sim_frame": 113,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 14,
+    "queues": {
+      "2": 28,
+      "4": 32,
+      "6": 57,
+      "8": 34
+    },
+    "active_cars_total": 193
+  },
+  {
+    "step": 114,
+    "sim_frame": 114,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 14,
+    "queues": {
+      "2": 35,
+      "4": 31,
+      "6": 57,
+      "8": 34
+    },
+    "active_cars_total": 193
+  },
+  {
+    "step": 115,
+    "sim_frame": 115,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 14,
+    "queues": {
+      "2": 36,
+      "4": 30,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 193
+  },
+  {
+    "step": 116,
+    "sim_frame": 116,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 14,
+    "queues": {
+      "2": 37,
+      "4": 31,
+      "6": 54,
+      "8": 34
+    },
+    "active_cars_total": 196
+  },
+  {
+    "step": 117,
+    "sim_frame": 117,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 14,
+    "queues": {
+      "2": 39,
+      "4": 31,
+      "6": 55,
+      "8": 34
+    },
+    "active_cars_total": 199
+  },
+  {
+    "step": 118,
+    "sim_frame": 118,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 14,
+    "queues": {
+      "2": 31,
+      "4": 31,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 200
+  },
+  {
+    "step": 119,
+    "sim_frame": 119,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 14,
+    "queues": {
+      "2": 32,
+      "4": 33,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 202
+  },
+  {
+    "step": 120,
+    "sim_frame": 120,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 13,
+    "queues": {
+      "2": 32,
+      "4": 34,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 202
+  },
+  {
+    "step": 121,
+    "sim_frame": 121,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 13,
+    "queues": {
+      "2": 43,
+      "4": 34,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 202
+  },
+  {
+    "step": 122,
+    "sim_frame": 122,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 13,
+    "queues": {
+      "2": 44,
+      "4": 34,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 202
+  },
+  {
+    "step": 123,
+    "sim_frame": 123,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 14,
+    "queues": {
+      "2": 42,
+      "4": 34,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 202
+  },
+  {
+    "step": 124,
+    "sim_frame": 124,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 15,
+    "queues": {
+      "2": 43,
+      "4": 33,
+      "6": 55,
+      "8": 34
+    },
+    "active_cars_total": 204
+  },
+  {
+    "step": 125,
+    "sim_frame": 125,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 15,
+    "queues": {
+      "2": 45,
+      "4": 35,
+      "6": 55,
+      "8": 34
+    },
+    "active_cars_total": 205
+  },
+  {
+    "step": 126,
+    "sim_frame": 126,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 15,
+    "queues": {
+      "2": 41,
+      "4": 35,
+      "6": 53,
+      "8": 34
+    },
+    "active_cars_total": 205
+  },
+  {
+    "step": 127,
+    "sim_frame": 127,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 15,
+    "queues": {
+      "2": 45,
+      "4": 36,
+      "6": 53,
+      "8": 34
+    },
+    "active_cars_total": 206
+  },
+  {
+    "step": 128,
+    "sim_frame": 128,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 15,
+    "queues": {
+      "2": 44,
+      "4": 38,
+      "6": 54,
+      "8": 34
+    },
+    "active_cars_total": 209
+  },
+  {
+    "step": 129,
+    "sim_frame": 129,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 15,
+    "queues": {
+      "2": 43,
+      "4": 40,
+      "6": 54,
+      "8": 34
+    },
+    "active_cars_total": 212
+  },
+  {
+    "step": 130,
+    "sim_frame": 130,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 15,
+    "queues": {
+      "2": 41,
+      "4": 40,
+      "6": 55,
+      "8": 34
+    },
+    "active_cars_total": 215
+  },
+  {
+    "step": 131,
+    "sim_frame": 131,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 16,
+    "queues": {
+      "2": 45,
+      "4": 41,
+      "6": 57,
+      "8": 34
+    },
+    "active_cars_total": 216
+  },
+  {
+    "step": 132,
+    "sim_frame": 132,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 17,
+    "queues": {
+      "2": 45,
+      "4": 41,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 217
+  },
+  {
+    "step": 133,
+    "sim_frame": 133,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 17,
+    "queues": {
+      "2": 45,
+      "4": 39,
+      "6": 57,
+      "8": 34
+    },
+    "active_cars_total": 218
+  },
+  {
+    "step": 134,
+    "sim_frame": 134,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 17,
+    "queues": {
+      "2": 48,
+      "4": 39,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 220
+  },
+  {
+    "step": 135,
+    "sim_frame": 135,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 17,
+    "queues": {
+      "2": 46,
+      "4": 43,
+      "6": 56,
+      "8": 34
+    },
+    "active_cars_total": 223
+  },
+  {
+    "step": 136,
+    "sim_frame": 136,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 17,
+    "queues": {
+      "2": 46,
+      "4": 45,
+      "6": 57,
+      "8": 34
+    },
+    "active_cars_total": 223
+  },
+  {
+    "step": 137,
+    "sim_frame": 137,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 17,
+    "queues": {
+      "2": 48,
+      "4": 44,
+      "6": 58,
+      "8": 34
+    },
+    "active_cars_total": 223
+  },
+  {
+    "step": 138,
+    "sim_frame": 138,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 17,
+    "queues": {
+      "2": 48,
+      "4": 42,
+      "6": 59,
+      "8": 34
+    },
+    "active_cars_total": 225
+  },
+  {
+    "step": 139,
+    "sim_frame": 139,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 17,
+    "queues": {
+      "2": 48,
+      "4": 43,
+      "6": 62,
+      "8": 34
+    },
+    "active_cars_total": 225
+  },
+  {
+    "step": 140,
+    "sim_frame": 140,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 17,
+    "queues": {
+      "2": 47,
+      "4": 43,
+      "6": 63,
+      "8": 34
+    },
+    "active_cars_total": 227
+  },
+  {
+    "step": 141,
+    "sim_frame": 141,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 17,
+    "queues": {
+      "2": 46,
+      "4": 43,
+      "6": 62,
+      "8": 34
+    },
+    "active_cars_total": 228
+  },
+  {
+    "step": 142,
+    "sim_frame": 142,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 18,
+    "queues": {
+      "2": 48,
+      "4": 43,
+      "6": 63,
+      "8": 34
+    },
+    "active_cars_total": 229
+  },
+  {
+    "step": 143,
+    "sim_frame": 143,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 49,
+      "4": 44,
+      "6": 65,
+      "8": 34
+    },
+    "active_cars_total": 230
+  },
+  {
+    "step": 144,
+    "sim_frame": 144,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 48,
+      "4": 38,
+      "6": 66,
+      "8": 34
+    },
+    "active_cars_total": 233
+  },
+  {
+    "step": 145,
+    "sim_frame": 145,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 50,
+      "4": 37,
+      "6": 66,
+      "8": 34
+    },
+    "active_cars_total": 234
+  },
+  {
+    "step": 146,
+    "sim_frame": 146,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 51,
+      "4": 42,
+      "6": 68,
+      "8": 34
+    },
+    "active_cars_total": 235
+  },
+  {
+    "step": 147,
+    "sim_frame": 147,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 51,
+      "4": 43,
+      "6": 68,
+      "8": 34
+    },
+    "active_cars_total": 235
+  },
+  {
+    "step": 148,
+    "sim_frame": 148,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 51,
+      "4": 44,
+      "6": 68,
+      "8": 34
+    },
+    "active_cars_total": 235
+  },
+  {
+    "step": 149,
+    "sim_frame": 149,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 49,
+      "4": 44,
+      "6": 68,
+      "8": 34
+    },
+    "active_cars_total": 235
+  },
+  {
+    "step": 150,
+    "sim_frame": 150,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 50,
+      "4": 44,
+      "6": 68,
+      "8": 34
+    },
+    "active_cars_total": 236
+  },
+  {
+    "step": 151,
+    "sim_frame": 151,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 51,
+      "4": 44,
+      "6": 70,
+      "8": 34
+    },
+    "active_cars_total": 239
+  },
+  {
+    "step": 152,
+    "sim_frame": 152,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 51,
+      "4": 45,
+      "6": 69,
+      "8": 35
+    },
+    "active_cars_total": 239
+  },
+  {
+    "step": 153,
+    "sim_frame": 153,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 20,
+    "queues": {
+      "2": 52,
+      "4": 46,
+      "6": 68,
+      "8": 35
+    },
+    "active_cars_total": 239
+  },
+  {
+    "step": 154,
+    "sim_frame": 154,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 53,
+      "4": 46,
+      "6": 69,
+      "8": 35
+    },
+    "active_cars_total": 240
+  },
+  {
+    "step": 155,
+    "sim_frame": 155,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 52,
+      "4": 45,
+      "6": 70,
+      "8": 35
+    },
+    "active_cars_total": 241
+  },
+  {
+    "step": 156,
+    "sim_frame": 156,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 52,
+      "4": 46,
+      "6": 70,
+      "8": 35
+    },
+    "active_cars_total": 242
+  },
+  {
+    "step": 157,
+    "sim_frame": 157,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 52,
+      "4": 47,
+      "6": 70,
+      "8": 35
+    },
+    "active_cars_total": 242
+  },
+  {
+    "step": 158,
+    "sim_frame": 158,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 53,
+      "4": 47,
+      "6": 69,
+      "8": 35
+    },
+    "active_cars_total": 244
+  },
+  {
+    "step": 159,
+    "sim_frame": 159,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 19,
+    "queues": {
+      "2": 54,
+      "4": 48,
+      "6": 70,
+      "8": 35
+    },
+    "active_cars_total": 244
+  },
+  {
+    "step": 160,
+    "sim_frame": 160,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 20,
+    "queues": {
+      "2": 54,
+      "4": 49,
+      "6": 70,
+      "8": 35
+    },
+    "active_cars_total": 244
+  },
+  {
+    "step": 161,
+    "sim_frame": 161,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 20,
+    "queues": {
+      "2": 54,
+      "4": 49,
+      "6": 68,
+      "8": 35
+    },
+    "active_cars_total": 244
+  },
+  {
+    "step": 162,
+    "sim_frame": 162,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 20,
+    "queues": {
+      "2": 54,
+      "4": 49,
+      "6": 69,
+      "8": 35
+    },
+    "active_cars_total": 246
+  },
+  {
+    "step": 163,
+    "sim_frame": 163,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 20,
+    "queues": {
+      "2": 54,
+      "4": 49,
+      "6": 67,
+      "8": 35
+    },
+    "active_cars_total": 246
+  },
+  {
+    "step": 164,
+    "sim_frame": 164,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 54,
+      "4": 48,
+      "6": 63,
+      "8": 35
+    },
+    "active_cars_total": 246
+  },
+  {
+    "step": 165,
+    "sim_frame": 165,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 54,
+      "4": 48,
+      "6": 65,
+      "8": 35
+    },
+    "active_cars_total": 246
+  },
+  {
+    "step": 166,
+    "sim_frame": 166,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 54,
+      "4": 49,
+      "6": 69,
+      "8": 35
+    },
+    "active_cars_total": 247
+  },
+  {
+    "step": 167,
+    "sim_frame": 167,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 55,
+      "4": 51,
+      "6": 72,
+      "8": 35
+    },
+    "active_cars_total": 248
+  },
+  {
+    "step": 168,
+    "sim_frame": 168,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 55,
+      "4": 51,
+      "6": 72,
+      "8": 35
+    },
+    "active_cars_total": 248
+  },
+  {
+    "step": 169,
+    "sim_frame": 169,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 55,
+      "4": 51,
+      "6": 72,
+      "8": 35
+    },
+    "active_cars_total": 248
+  },
+  {
+    "step": 170,
+    "sim_frame": 170,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 55,
+      "4": 51,
+      "6": 72,
+      "8": 35
+    },
+    "active_cars_total": 248
+  },
+  {
+    "step": 171,
+    "sim_frame": 171,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 55,
+      "4": 50,
+      "6": 72,
+      "8": 35
+    },
+    "active_cars_total": 248
+  },
+  {
+    "step": 172,
+    "sim_frame": 172,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 54,
+      "4": 50,
+      "6": 69,
+      "8": 35
+    },
+    "active_cars_total": 249
+  },
+  {
+    "step": 173,
+    "sim_frame": 173,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 54,
+      "4": 51,
+      "6": 65,
+      "8": 35
+    },
+    "active_cars_total": 250
+  },
+  {
+    "step": 174,
+    "sim_frame": 174,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 55,
+      "4": 51,
+      "6": 65,
+      "8": 35
+    },
+    "active_cars_total": 250
+  },
+  {
+    "step": 175,
+    "sim_frame": 175,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 55,
+      "4": 51,
+      "6": 69,
+      "8": 35
+    },
+    "active_cars_total": 250
+  },
+  {
+    "step": 176,
+    "sim_frame": 176,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 55,
+      "4": 52,
+      "6": 75,
+      "8": 35
+    },
+    "active_cars_total": 251
+  },
+  {
+    "step": 177,
+    "sim_frame": 177,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 55,
+      "4": 52,
+      "6": 78,
+      "8": 35
+    },
+    "active_cars_total": 252
+  },
+  {
+    "step": 178,
+    "sim_frame": 178,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 55,
+      "4": 52,
+      "6": 78,
+      "8": 35
+    },
+    "active_cars_total": 253
+  },
+  {
+    "step": 179,
+    "sim_frame": 179,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 55,
+      "4": 52,
+      "6": 79,
+      "8": 35
+    },
+    "active_cars_total": 253
+  },
+  {
+    "step": 180,
+    "sim_frame": 180,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 21,
+    "queues": {
+      "2": 55,
+      "4": 52,
+      "6": 79,
+      "8": 35
+    },
+    "active_cars_total": 253
+  },
+  {
+    "step": 181,
+    "sim_frame": 181,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 55,
+      "4": 52,
+      "6": 78,
+      "8": 35
+    },
+    "active_cars_total": 254
+  },
+  {
+    "step": 182,
+    "sim_frame": 182,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 55,
+      "4": 53,
+      "6": 78,
+      "8": 35
+    },
+    "active_cars_total": 254
+  },
+  {
+    "step": 183,
+    "sim_frame": 183,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 56,
+      "4": 53,
+      "6": 77,
+      "8": 35
+    },
+    "active_cars_total": 256
+  },
+  {
+    "step": 184,
+    "sim_frame": 184,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 56,
+      "4": 54,
+      "6": 74,
+      "8": 35
+    },
+    "active_cars_total": 256
+  },
+  {
+    "step": 185,
+    "sim_frame": 185,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 56,
+      "4": 55,
+      "6": 70,
+      "8": 35
+    },
+    "active_cars_total": 258
+  },
+  {
+    "step": 186,
+    "sim_frame": 186,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 56,
+      "4": 56,
+      "6": 70,
+      "8": 35
+    },
+    "active_cars_total": 259
+  },
+  {
+    "step": 187,
+    "sim_frame": 187,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 56,
+      "4": 56,
+      "6": 68,
+      "8": 35
+    },
+    "active_cars_total": 259
+  },
+  {
+    "step": 188,
+    "sim_frame": 188,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 56,
+      "4": 56,
+      "6": 72,
+      "8": 35
+    },
+    "active_cars_total": 259
+  },
+  {
+    "step": 189,
+    "sim_frame": 189,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 56,
+      "4": 56,
+      "6": 77,
+      "8": 35
+    },
+    "active_cars_total": 259
+  },
+  {
+    "step": 190,
+    "sim_frame": 190,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 22,
+    "queues": {
+      "2": 56,
+      "4": 56,
+      "6": 79,
+      "8": 35
+    },
+    "active_cars_total": 260
+  },
+  {
+    "step": 191,
+    "sim_frame": 191,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 22,
+    "queues": {
+      "2": 56,
+      "4": 56,
+      "6": 79,
+      "8": 35
+    },
+    "active_cars_total": 261
+  },
+  {
+    "step": 192,
+    "sim_frame": 192,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 22,
+    "queues": {
+      "2": 56,
+      "4": 57,
+      "6": 80,
+      "8": 35
+    },
+    "active_cars_total": 261
+  },
+  {
+    "step": 193,
+    "sim_frame": 193,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 22,
+    "queues": {
+      "2": 56,
+      "4": 57,
+      "6": 80,
+      "8": 35
+    },
+    "active_cars_total": 261
+  },
+  {
+    "step": 194,
+    "sim_frame": 194,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 22,
+    "queues": {
+      "2": 57,
+      "4": 57,
+      "6": 79,
+      "8": 35
+    },
+    "active_cars_total": 262
+  },
+  {
+    "step": 195,
+    "sim_frame": 195,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 23,
+    "queues": {
+      "2": 57,
+      "4": 57,
+      "6": 78,
+      "8": 35
+    },
+    "active_cars_total": 262
+  },
+  {
+    "step": 196,
+    "sim_frame": 196,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 23,
+    "queues": {
+      "2": 57,
+      "4": 57,
+      "6": 75,
+      "8": 35
+    },
+    "active_cars_total": 263
+  },
+  {
+    "step": 197,
+    "sim_frame": 197,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 23,
+    "queues": {
+      "2": 57,
+      "4": 57,
+      "6": 75,
+      "8": 35
+    },
+    "active_cars_total": 263
+  },
+  {
+    "step": 198,
+    "sim_frame": 198,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 23,
+    "queues": {
+      "2": 57,
+      "4": 57,
+      "6": 74,
+      "8": 35
+    },
+    "active_cars_total": 263
+  },
+  {
+    "step": 199,
+    "sim_frame": 199,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 23,
+    "queues": {
+      "2": 57,
+      "4": 57,
+      "6": 71,
+      "8": 35
+    },
+    "active_cars_total": 264
+  },
+  {
+    "step": 200,
+    "sim_frame": 200,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 23,
+    "queues": {
+      "2": 57,
+      "4": 58,
+      "6": 71,
+      "8": 35
+    },
+    "active_cars_total": 264
+  },
+  {
+    "step": 201,
+    "sim_frame": 201,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 22,
+    "queues": {
+      "2": 57,
+      "4": 59,
+      "6": 73,
+      "8": 35
+    },
+    "active_cars_total": 266
+  },
+  {
+    "step": 202,
+    "sim_frame": 202,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 23,
+    "queues": {
+      "2": 57,
+      "4": 60,
+      "6": 76,
+      "8": 35
+    },
+    "active_cars_total": 269
+  },
+  {
+    "step": 203,
+    "sim_frame": 203,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 23,
+    "queues": {
+      "2": 57,
+      "4": 60,
+      "6": 78,
+      "8": 35
+    },
+    "active_cars_total": 271
+  },
+  {
+    "step": 204,
+    "sim_frame": 204,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 23,
+    "queues": {
+      "2": 58,
+      "4": 60,
+      "6": 85,
+      "8": 35
+    },
+    "active_cars_total": 271
+  },
+  {
+    "step": 205,
+    "sim_frame": 205,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 58,
+      "4": 60,
+      "6": 84,
+      "8": 35
+    },
+    "active_cars_total": 271
+  },
+  {
+    "step": 206,
+    "sim_frame": 206,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 58,
+      "4": 61,
+      "6": 85,
+      "8": 35
+    },
+    "active_cars_total": 275
+  },
+  {
+    "step": 207,
+    "sim_frame": 207,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 58,
+      "4": 61,
+      "6": 85,
+      "8": 36
+    },
+    "active_cars_total": 277
+  },
+  {
+    "step": 208,
+    "sim_frame": 208,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 59,
+      "4": 61,
+      "6": 86,
+      "8": 37
+    },
+    "active_cars_total": 278
+  },
+  {
+    "step": 209,
+    "sim_frame": 209,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 59,
+      "4": 61,
+      "6": 85,
+      "8": 37
+    },
+    "active_cars_total": 279
+  },
+  {
+    "step": 210,
+    "sim_frame": 210,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 59,
+      "4": 62,
+      "6": 85,
+      "8": 37
+    },
+    "active_cars_total": 279
+  },
+  {
+    "step": 211,
+    "sim_frame": 211,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 59,
+      "4": 62,
+      "6": 87,
+      "8": 37
+    },
+    "active_cars_total": 279
+  },
+  {
+    "step": 212,
+    "sim_frame": 212,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 59,
+      "4": 62,
+      "6": 85,
+      "8": 37
+    },
+    "active_cars_total": 279
+  },
+  {
+    "step": 213,
+    "sim_frame": 213,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 59,
+      "4": 63,
+      "6": 87,
+      "8": 37
+    },
+    "active_cars_total": 280
+  },
+  {
+    "step": 214,
+    "sim_frame": 214,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 59,
+      "4": 64,
+      "6": 87,
+      "8": 37
+    },
+    "active_cars_total": 281
+  },
+  {
+    "step": 215,
+    "sim_frame": 215,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 59,
+      "4": 64,
+      "6": 87,
+      "8": 37
+    },
+    "active_cars_total": 282
+  },
+  {
+    "step": 216,
+    "sim_frame": 216,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 59,
+      "4": 65,
+      "6": 87,
+      "8": 37
+    },
+    "active_cars_total": 283
+  },
+  {
+    "step": 217,
+    "sim_frame": 217,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 60,
+      "4": 65,
+      "6": 87,
+      "8": 38
+    },
+    "active_cars_total": 284
+  },
+  {
+    "step": 218,
+    "sim_frame": 218,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 60,
+      "4": 65,
+      "6": 87,
+      "8": 38
+    },
+    "active_cars_total": 284
+  },
+  {
+    "step": 219,
+    "sim_frame": 219,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 60,
+      "4": 66,
+      "6": 87,
+      "8": 38
+    },
+    "active_cars_total": 284
+  },
+  {
+    "step": 220,
+    "sim_frame": 220,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 60,
+      "4": 66,
+      "6": 87,
+      "8": 38
+    },
+    "active_cars_total": 284
+  },
+  {
+    "step": 221,
+    "sim_frame": 221,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 60,
+      "4": 66,
+      "6": 85,
+      "8": 37
+    },
+    "active_cars_total": 284
+  },
+  {
+    "step": 222,
+    "sim_frame": 222,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 24,
+    "queues": {
+      "2": 60,
+      "4": 67,
+      "6": 86,
+      "8": 37
+    },
+    "active_cars_total": 285
+  },
+  {
+    "step": 223,
+    "sim_frame": 223,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 24,
+    "queues": {
+      "2": 60,
+      "4": 67,
+      "6": 87,
+      "8": 37
+    },
+    "active_cars_total": 286
+  },
+  {
+    "step": 224,
+    "sim_frame": 224,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 24,
+    "queues": {
+      "2": 60,
+      "4": 67,
+      "6": 88,
+      "8": 37
+    },
+    "active_cars_total": 286
+  },
+  {
+    "step": 225,
+    "sim_frame": 225,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 24,
+    "queues": {
+      "2": 60,
+      "4": 67,
+      "6": 88,
+      "8": 37
+    },
+    "active_cars_total": 286
+  },
+  {
+    "step": 226,
+    "sim_frame": 226,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 24,
+    "queues": {
+      "2": 60,
+      "4": 68,
+      "6": 88,
+      "8": 39
+    },
+    "active_cars_total": 290
+  },
+  {
+    "step": 227,
+    "sim_frame": 227,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 24,
+    "queues": {
+      "2": 60,
+      "4": 68,
+      "6": 88,
+      "8": 40
+    },
+    "active_cars_total": 290
+  },
+  {
+    "step": 228,
+    "sim_frame": 228,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 24,
+    "queues": {
+      "2": 57,
+      "4": 68,
+      "6": 88,
+      "8": 40
+    },
+    "active_cars_total": 290
+  },
+  {
+    "step": 229,
+    "sim_frame": 229,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 24,
+    "queues": {
+      "2": 57,
+      "4": 68,
+      "6": 88,
+      "8": 40
+    },
+    "active_cars_total": 292
+  },
+  {
+    "step": 230,
+    "sim_frame": 230,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 25,
+    "queues": {
+      "2": 57,
+      "4": 69,
+      "6": 90,
+      "8": 40
+    },
+    "active_cars_total": 293
+  },
+  {
+    "step": 231,
+    "sim_frame": 231,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 25,
+    "queues": {
+      "2": 57,
+      "4": 69,
+      "6": 89,
+      "8": 40
+    },
+    "active_cars_total": 293
+  },
+  {
+    "step": 232,
+    "sim_frame": 232,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 25,
+    "queues": {
+      "2": 57,
+      "4": 69,
+      "6": 90,
+      "8": 40
+    },
+    "active_cars_total": 295
+  },
+  {
+    "step": 233,
+    "sim_frame": 233,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 26,
+    "queues": {
+      "2": 57,
+      "4": 70,
+      "6": 92,
+      "8": 40
+    },
+    "active_cars_total": 298
+  },
+  {
+    "step": 234,
+    "sim_frame": 234,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 27,
+    "queues": {
+      "2": 58,
+      "4": 70,
+      "6": 92,
+      "8": 39
+    },
+    "active_cars_total": 298
+  },
+  {
+    "step": 235,
+    "sim_frame": 235,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 28,
+    "queues": {
+      "2": 55,
+      "4": 70,
+      "6": 93,
+      "8": 39
+    },
+    "active_cars_total": 299
+  },
+  {
+    "step": 236,
+    "sim_frame": 236,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 28,
+    "queues": {
+      "2": 53,
+      "4": 70,
+      "6": 93,
+      "8": 37
+    },
+    "active_cars_total": 299
+  },
+  {
+    "step": 237,
+    "sim_frame": 237,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 28,
+    "queues": {
+      "2": 53,
+      "4": 70,
+      "6": 93,
+      "8": 37
+    },
+    "active_cars_total": 299
+  },
+  {
+    "step": 238,
+    "sim_frame": 238,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 28,
+    "queues": {
+      "2": 52,
+      "4": 70,
+      "6": 93,
+      "8": 37
+    },
+    "active_cars_total": 299
+  },
+  {
+    "step": 239,
+    "sim_frame": 239,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 28,
+    "queues": {
+      "2": 52,
+      "4": 70,
+      "6": 94,
+      "8": 38
+    },
+    "active_cars_total": 300
+  },
+  {
+    "step": 240,
+    "sim_frame": 240,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 29,
+    "queues": {
+      "2": 50,
+      "4": 71,
+      "6": 94,
+      "8": 38
+    },
+    "active_cars_total": 301
+  },
+  {
+    "step": 241,
+    "sim_frame": 241,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 29,
+    "queues": {
+      "2": 50,
+      "4": 71,
+      "6": 94,
+      "8": 38
+    },
+    "active_cars_total": 301
+  },
+  {
+    "step": 242,
+    "sim_frame": 242,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 29,
+    "queues": {
+      "2": 51,
+      "4": 71,
+      "6": 94,
+      "8": 38
+    },
+    "active_cars_total": 303
+  },
+  {
+    "step": 243,
+    "sim_frame": 243,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 30,
+    "queues": {
+      "2": 48,
+      "4": 72,
+      "6": 95,
+      "8": 38
+    },
+    "active_cars_total": 304
+  },
+  {
+    "step": 244,
+    "sim_frame": 244,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 30,
+    "queues": {
+      "2": 47,
+      "4": 72,
+      "6": 93,
+      "8": 39
+    },
+    "active_cars_total": 305
+  },
+  {
+    "step": 245,
+    "sim_frame": 245,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 30,
+    "queues": {
+      "2": 47,
+      "4": 72,
+      "6": 93,
+      "8": 39
+    },
+    "active_cars_total": 305
+  },
+  {
+    "step": 246,
+    "sim_frame": 246,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 30,
+    "queues": {
+      "2": 47,
+      "4": 72,
+      "6": 94,
+      "8": 40
+    },
+    "active_cars_total": 306
+  },
+  {
+    "step": 247,
+    "sim_frame": 247,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 30,
+    "queues": {
+      "2": 49,
+      "4": 72,
+      "6": 94,
+      "8": 40
+    },
+    "active_cars_total": 306
+  },
+  {
+    "step": 248,
+    "sim_frame": 248,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 30,
+    "queues": {
+      "2": 49,
+      "4": 72,
+      "6": 94,
+      "8": 40
+    },
+    "active_cars_total": 306
+  },
+  {
+    "step": 249,
+    "sim_frame": 249,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 30,
+    "queues": {
+      "2": 48,
+      "4": 72,
+      "6": 94,
+      "8": 40
+    },
+    "active_cars_total": 306
+  },
+  {
+    "step": 250,
+    "sim_frame": 250,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 32,
+    "queues": {
+      "2": 48,
+      "4": 72,
+      "6": 94,
+      "8": 40
+    },
+    "active_cars_total": 306
+  },
+  {
+    "step": 251,
+    "sim_frame": 251,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 32,
+    "queues": {
+      "2": 45,
+      "4": 72,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 307
+  },
+  {
+    "step": 252,
+    "sim_frame": 252,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 32,
+    "queues": {
+      "2": 43,
+      "4": 73,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 307
+  },
+  {
+    "step": 253,
+    "sim_frame": 253,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 32,
+    "queues": {
+      "2": 43,
+      "4": 73,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 307
+  },
+  {
+    "step": 254,
+    "sim_frame": 254,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 32,
+    "queues": {
+      "2": 42,
+      "4": 73,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 307
+  },
+  {
+    "step": 255,
+    "sim_frame": 255,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 32,
+    "queues": {
+      "2": 38,
+      "4": 73,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 307
+  },
+  {
+    "step": 256,
+    "sim_frame": 256,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 32,
+    "queues": {
+      "2": 34,
+      "4": 73,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 307
+  },
+  {
+    "step": 257,
+    "sim_frame": 257,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 32,
+    "queues": {
+      "2": 33,
+      "4": 74,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 308
+  },
+  {
+    "step": 258,
+    "sim_frame": 258,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 32,
+    "queues": {
+      "2": 33,
+      "4": 75,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 309
+  },
+  {
+    "step": 259,
+    "sim_frame": 259,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 32,
+    "queues": {
+      "2": 33,
+      "4": 75,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 310
+  },
+  {
+    "step": 260,
+    "sim_frame": 260,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 33,
+    "queues": {
+      "2": 32,
+      "4": 76,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 311
+  },
+  {
+    "step": 261,
+    "sim_frame": 261,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 33,
+    "queues": {
+      "2": 42,
+      "4": 76,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 312
+  },
+  {
+    "step": 262,
+    "sim_frame": 262,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 33,
+    "queues": {
+      "2": 44,
+      "4": 77,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 312
+  },
+  {
+    "step": 263,
+    "sim_frame": 263,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 33,
+    "queues": {
+      "2": 44,
+      "4": 77,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 313
+  },
+  {
+    "step": 264,
+    "sim_frame": 264,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 34,
+    "queues": {
+      "2": 47,
+      "4": 77,
+      "6": 95,
+      "8": 40
+    },
+    "active_cars_total": 315
+  },
+  {
+    "step": 265,
+    "sim_frame": 265,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 34,
+    "queues": {
+      "2": 48,
+      "4": 78,
+      "6": 96,
+      "8": 41
+    },
+    "active_cars_total": 316
+  },
+  {
+    "step": 266,
+    "sim_frame": 266,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 34,
+    "queues": {
+      "2": 41,
+      "4": 79,
+      "6": 96,
+      "8": 41
+    },
+    "active_cars_total": 317
+  },
+  {
+    "step": 267,
+    "sim_frame": 267,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 34,
+    "queues": {
+      "2": 36,
+      "4": 79,
+      "6": 96,
+      "8": 41
+    },
+    "active_cars_total": 319
+  },
+  {
+    "step": 268,
+    "sim_frame": 268,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 35,
+    "queues": {
+      "2": 39,
+      "4": 79,
+      "6": 96,
+      "8": 41
+    },
+    "active_cars_total": 319
+  },
+  {
+    "step": 269,
+    "sim_frame": 269,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 35,
+    "queues": {
+      "2": 46,
+      "4": 79,
+      "6": 96,
+      "8": 41
+    },
+    "active_cars_total": 320
+  },
+  {
+    "step": 270,
+    "sim_frame": 270,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 35,
+    "queues": {
+      "2": 46,
+      "4": 79,
+      "6": 96,
+      "8": 42
+    },
+    "active_cars_total": 320
+  },
+  {
+    "step": 271,
+    "sim_frame": 271,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 35,
+    "queues": {
+      "2": 45,
+      "4": 79,
+      "6": 97,
+      "8": 42
+    },
+    "active_cars_total": 321
+  },
+  {
+    "step": 272,
+    "sim_frame": 272,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 36,
+    "queues": {
+      "2": 45,
+      "4": 79,
+      "6": 98,
+      "8": 42
+    },
+    "active_cars_total": 322
+  },
+  {
+    "step": 273,
+    "sim_frame": 273,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 36,
+    "queues": {
+      "2": 43,
+      "4": 79,
+      "6": 98,
+      "8": 42
+    },
+    "active_cars_total": 322
+  },
+  {
+    "step": 274,
+    "sim_frame": 274,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 36,
+    "queues": {
+      "2": 38,
+      "4": 79,
+      "6": 98,
+      "8": 42
+    },
+    "active_cars_total": 322
+  },
+  {
+    "step": 275,
+    "sim_frame": 275,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 36,
+    "queues": {
+      "2": 39,
+      "4": 79,
+      "6": 98,
+      "8": 42
+    },
+    "active_cars_total": 325
+  },
+  {
+    "step": 276,
+    "sim_frame": 276,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 36,
+    "queues": {
+      "2": 39,
+      "4": 80,
+      "6": 98,
+      "8": 42
+    },
+    "active_cars_total": 324
+  },
+  {
+    "step": 277,
+    "sim_frame": 277,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 36,
+    "queues": {
+      "2": 42,
+      "4": 80,
+      "6": 99,
+      "8": 42
+    },
+    "active_cars_total": 325
+  },
+  {
+    "step": 278,
+    "sim_frame": 278,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 36,
+    "queues": {
+      "2": 44,
+      "4": 80,
+      "6": 99,
+      "8": 42
+    },
+    "active_cars_total": 325
+  },
+  {
+    "step": 279,
+    "sim_frame": 279,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 37,
+    "queues": {
+      "2": 43,
+      "4": 80,
+      "6": 100,
+      "8": 42
+    },
+    "active_cars_total": 326
+  },
+  {
+    "step": 280,
+    "sim_frame": 280,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 37,
+    "queues": {
+      "2": 43,
+      "4": 80,
+      "6": 100,
+      "8": 42
+    },
+    "active_cars_total": 326
+  },
+  {
+    "step": 281,
+    "sim_frame": 281,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 38,
+    "queues": {
+      "2": 42,
+      "4": 80,
+      "6": 100,
+      "8": 42
+    },
+    "active_cars_total": 326
+  },
+  {
+    "step": 282,
+    "sim_frame": 282,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 38,
+    "queues": {
+      "2": 39,
+      "4": 80,
+      "6": 100,
+      "8": 42
+    },
+    "active_cars_total": 326
+  },
+  {
+    "step": 283,
+    "sim_frame": 283,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 38,
+    "queues": {
+      "2": 35,
+      "4": 80,
+      "6": 100,
+      "8": 42
+    },
+    "active_cars_total": 328
+  },
+  {
+    "step": 284,
+    "sim_frame": 284,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 38,
+    "queues": {
+      "2": 39,
+      "4": 81,
+      "6": 101,
+      "8": 42
+    },
+    "active_cars_total": 329
+  },
+  {
+    "step": 285,
+    "sim_frame": 285,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 38,
+    "queues": {
+      "2": 37,
+      "4": 81,
+      "6": 101,
+      "8": 42
+    },
+    "active_cars_total": 330
+  },
+  {
+    "step": 286,
+    "sim_frame": 286,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 38,
+    "queues": {
+      "2": 42,
+      "4": 81,
+      "6": 101,
+      "8": 42
+    },
+    "active_cars_total": 330
+  },
+  {
+    "step": 287,
+    "sim_frame": 287,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 38,
+    "queues": {
+      "2": 43,
+      "4": 81,
+      "6": 101,
+      "8": 42
+    },
+    "active_cars_total": 331
+  },
+  {
+    "step": 288,
+    "sim_frame": 288,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 38,
+    "queues": {
+      "2": 43,
+      "4": 82,
+      "6": 101,
+      "8": 42
+    },
+    "active_cars_total": 332
+  },
+  {
+    "step": 289,
+    "sim_frame": 289,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 39,
+    "queues": {
+      "2": 44,
+      "4": 82,
+      "6": 101,
+      "8": 42
+    },
+    "active_cars_total": 332
+  },
+  {
+    "step": 290,
+    "sim_frame": 290,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 39,
+    "queues": {
+      "2": 45,
+      "4": 82,
+      "6": 102,
+      "8": 42
+    },
+    "active_cars_total": 332
+  },
+  {
+    "step": 291,
+    "sim_frame": 291,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 39,
+    "queues": {
+      "2": 45,
+      "4": 82,
+      "6": 102,
+      "8": 42
+    },
+    "active_cars_total": 332
+  },
+  {
+    "step": 292,
+    "sim_frame": 292,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 39,
+    "queues": {
+      "2": 46,
+      "4": 82,
+      "6": 102,
+      "8": 42
+    },
+    "active_cars_total": 334
+  },
+  {
+    "step": 293,
+    "sim_frame": 293,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 40,
+    "queues": {
+      "2": 47,
+      "4": 82,
+      "6": 103,
+      "8": 43
+    },
+    "active_cars_total": 335
+  },
+  {
+    "step": 294,
+    "sim_frame": 294,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 40,
+    "queues": {
+      "2": 45,
+      "4": 82,
+      "6": 103,
+      "8": 43
+    },
+    "active_cars_total": 336
+  },
+  {
+    "step": 295,
+    "sim_frame": 295,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 40,
+    "queues": {
+      "2": 44,
+      "4": 84,
+      "6": 104,
+      "8": 43
+    },
+    "active_cars_total": 339
+  },
+  {
+    "step": 296,
+    "sim_frame": 296,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 40,
+    "queues": {
+      "2": 47,
+      "4": 84,
+      "6": 104,
+      "8": 44
+    },
+    "active_cars_total": 339
+  },
+  {
+    "step": 297,
+    "sim_frame": 297,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 41,
+    "queues": {
+      "2": 46,
+      "4": 84,
+      "6": 104,
+      "8": 44
+    },
+    "active_cars_total": 340
+  },
+  {
+    "step": 298,
+    "sim_frame": 298,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 41,
+    "queues": {
+      "2": 45,
+      "4": 84,
+      "6": 104,
+      "8": 44
+    },
+    "active_cars_total": 340
+  },
+  {
+    "step": 299,
+    "sim_frame": 299,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 41,
+    "queues": {
+      "2": 45,
+      "4": 84,
+      "6": 104,
+      "8": 44
+    },
+    "active_cars_total": 340
+  },
+  {
+    "step": 300,
+    "sim_frame": 300,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 41,
+    "queues": {
+      "2": 45,
+      "4": 86,
+      "6": 104,
+      "8": 44
+    },
+    "active_cars_total": 342
+  },
+  {
+    "step": 301,
+    "sim_frame": 301,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 41,
+    "queues": {
+      "2": 45,
+      "4": 86,
+      "6": 103,
+      "8": 44
+    },
+    "active_cars_total": 344
+  },
+  {
+    "step": 302,
+    "sim_frame": 302,
+    "green_road": 2,
+    "is_clearing": false,
+    "transit_count": 41,
+    "queues": {
+      "2": 43,
+      "4": 87,
+      "6": 103,
+      "8": 45
+    },
+    "active_cars_total": 345
+  },
+  {
+    "step": 303,
+    "sim_frame": 303,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 42,
+      "4": 87,
+      "6": 104,
+      "8": 45
+    },
+    "active_cars_total": 346
+  },
+  {
+    "step": 304,
+    "sim_frame": 304,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 44,
+      "4": 87,
+      "6": 105,
+      "8": 45
+    },
+    "active_cars_total": 346
+  },
+  {
+    "step": 305,
+    "sim_frame": 305,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 42,
+      "4": 88,
+      "6": 105,
+      "8": 45
+    },
+    "active_cars_total": 347
+  },
+  {
+    "step": 306,
+    "sim_frame": 306,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 42,
+      "4": 88,
+      "6": 105,
+      "8": 45
+    },
+    "active_cars_total": 347
+  },
+  {
+    "step": 307,
+    "sim_frame": 307,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 44,
+      "4": 88,
+      "6": 105,
+      "8": 45
+    },
+    "active_cars_total": 347
+  },
+  {
+    "step": 308,
+    "sim_frame": 308,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 44,
+      "4": 88,
+      "6": 106,
+      "8": 45
+    },
+    "active_cars_total": 351
+  },
+  {
+    "step": 309,
+    "sim_frame": 309,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 48,
+      "4": 90,
+      "6": 106,
+      "8": 45
+    },
+    "active_cars_total": 351
+  },
+  {
+    "step": 310,
+    "sim_frame": 310,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 49,
+      "4": 91,
+      "6": 106,
+      "8": 45
+    },
+    "active_cars_total": 353
+  },
+  {
+    "step": 311,
+    "sim_frame": 311,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 42,
+    "queues": {
+      "2": 51,
+      "4": 92,
+      "6": 108,
+      "8": 46
+    },
+    "active_cars_total": 356
+  },
+  {
+    "step": 312,
+    "sim_frame": 312,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 42,
+    "queues": {
+      "2": 54,
+      "4": 92,
+      "6": 109,
+      "8": 46
+    },
+    "active_cars_total": 356
+  },
+  {
+    "step": 313,
+    "sim_frame": 313,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 42,
+    "queues": {
+      "2": 52,
+      "4": 92,
+      "6": 109,
+      "8": 46
+    },
+    "active_cars_total": 356
+  },
+  {
+    "step": 314,
+    "sim_frame": 314,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 42,
+    "queues": {
+      "2": 50,
+      "4": 92,
+      "6": 109,
+      "8": 47
+    },
+    "active_cars_total": 357
+  },
+  {
+    "step": 315,
+    "sim_frame": 315,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 42,
+    "queues": {
+      "2": 48,
+      "4": 93,
+      "6": 109,
+      "8": 47
+    },
+    "active_cars_total": 359
+  },
+  {
+    "step": 316,
+    "sim_frame": 316,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 42,
+    "queues": {
+      "2": 49,
+      "4": 93,
+      "6": 109,
+      "8": 48
+    },
+    "active_cars_total": 359
+  },
+  {
+    "step": 317,
+    "sim_frame": 317,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 42,
+    "queues": {
+      "2": 45,
+      "4": 93,
+      "6": 109,
+      "8": 48
+    },
+    "active_cars_total": 359
+  },
+  {
+    "step": 318,
+    "sim_frame": 318,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 42,
+    "queues": {
+      "2": 45,
+      "4": 93,
+      "6": 109,
+      "8": 48
+    },
+    "active_cars_total": 360
+  },
+  {
+    "step": 319,
+    "sim_frame": 319,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 42,
+    "queues": {
+      "2": 46,
+      "4": 95,
+      "6": 109,
+      "8": 48
+    },
+    "active_cars_total": 362
+  },
+  {
+    "step": 320,
+    "sim_frame": 320,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 42,
+    "queues": {
+      "2": 44,
+      "4": 95,
+      "6": 109,
+      "8": 48
+    },
+    "active_cars_total": 362
+  },
+  {
+    "step": 321,
+    "sim_frame": 321,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 46,
+      "4": 95,
+      "6": 109,
+      "8": 48
+    },
+    "active_cars_total": 362
+  },
+  {
+    "step": 322,
+    "sim_frame": 322,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 47,
+      "4": 95,
+      "6": 109,
+      "8": 48
+    },
+    "active_cars_total": 362
+  },
+  {
+    "step": 323,
+    "sim_frame": 323,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 46,
+      "4": 95,
+      "6": 109,
+      "8": 48
+    },
+    "active_cars_total": 362
+  },
+  {
+    "step": 324,
+    "sim_frame": 324,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 46,
+      "4": 95,
+      "6": 109,
+      "8": 48
+    },
+    "active_cars_total": 362
+  },
+  {
+    "step": 325,
+    "sim_frame": 325,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 46,
+      "4": 96,
+      "6": 109,
+      "8": 49
+    },
+    "active_cars_total": 364
+  },
+  {
+    "step": 326,
+    "sim_frame": 326,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 48,
+      "4": 96,
+      "6": 109,
+      "8": 49
+    },
+    "active_cars_total": 365
+  },
+  {
+    "step": 327,
+    "sim_frame": 327,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 47,
+      "4": 97,
+      "6": 110,
+      "8": 50
+    },
+    "active_cars_total": 367
+  },
+  {
+    "step": 328,
+    "sim_frame": 328,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 49,
+      "4": 98,
+      "6": 110,
+      "8": 50
+    },
+    "active_cars_total": 368
+  },
+  {
+    "step": 329,
+    "sim_frame": 329,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 48,
+      "4": 98,
+      "6": 111,
+      "8": 50
+    },
+    "active_cars_total": 370
+  },
+  {
+    "step": 330,
+    "sim_frame": 330,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 48,
+      "4": 98,
+      "6": 112,
+      "8": 50
+    },
+    "active_cars_total": 370
+  },
+  {
+    "step": 331,
+    "sim_frame": 331,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 48,
+      "4": 98,
+      "6": 112,
+      "8": 50
+    },
+    "active_cars_total": 371
+  },
+  {
+    "step": 332,
+    "sim_frame": 332,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 45,
+      "4": 98,
+      "6": 112,
+      "8": 51
+    },
+    "active_cars_total": 371
+  },
+  {
+    "step": 333,
+    "sim_frame": 333,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 42,
+      "4": 98,
+      "6": 112,
+      "8": 51
+    },
+    "active_cars_total": 372
+  },
+  {
+    "step": 334,
+    "sim_frame": 334,
+    "green_road": 2,
+    "is_clearing": true,
+    "transit_count": 41,
+    "queues": {
+      "2": 45,
+      "4": 98,
+      "6": 114,
+      "8": 51
+    },
+    "active_cars_total": 373
+  },
+  {
+    "step": 335,
+    "sim_frame": 335,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 41,
+    "queues": {
+      "2": 47,
+      "4": 99,
+      "6": 114,
+      "8": 51
+    },
+    "active_cars_total": 374
+  },
+  {
+    "step": 336,
+    "sim_frame": 336,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 41,
+    "queues": {
+      "2": 54,
+      "4": 99,
+      "6": 113,
+      "8": 51
+    },
+    "active_cars_total": 374
+  },
+  {
+    "step": 337,
+    "sim_frame": 337,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 54,
+      "4": 99,
+      "6": 113,
+      "8": 51
+    },
+    "active_cars_total": 374
+  },
+  {
+    "step": 338,
+    "sim_frame": 338,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 52,
+      "4": 99,
+      "6": 114,
+      "8": 51
+    },
+    "active_cars_total": 375
+  },
+  {
+    "step": 339,
+    "sim_frame": 339,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 54,
+      "4": 99,
+      "6": 114,
+      "8": 51
+    },
+    "active_cars_total": 377
+  },
+  {
+    "step": 340,
+    "sim_frame": 340,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 54,
+      "4": 100,
+      "6": 114,
+      "8": 51
+    },
+    "active_cars_total": 377
+  },
+  {
+    "step": 341,
+    "sim_frame": 341,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 41,
+    "queues": {
+      "2": 50,
+      "4": 101,
+      "6": 115,
+      "8": 52
+    },
+    "active_cars_total": 380
+  },
+  {
+    "step": 342,
+    "sim_frame": 342,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 48,
+      "4": 101,
+      "6": 116,
+      "8": 52
+    },
+    "active_cars_total": 381
+  },
+  {
+    "step": 343,
+    "sim_frame": 343,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 47,
+      "4": 101,
+      "6": 116,
+      "8": 52
+    },
+    "active_cars_total": 381
+  },
+  {
+    "step": 344,
+    "sim_frame": 344,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 48,
+      "4": 101,
+      "6": 116,
+      "8": 52
+    },
+    "active_cars_total": 381
+  },
+  {
+    "step": 345,
+    "sim_frame": 345,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 52,
+      "4": 101,
+      "6": 116,
+      "8": 52
+    },
+    "active_cars_total": 381
+  },
+  {
+    "step": 346,
+    "sim_frame": 346,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 58,
+      "4": 101,
+      "6": 116,
+      "8": 52
+    },
+    "active_cars_total": 382
+  },
+  {
+    "step": 347,
+    "sim_frame": 347,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 58,
+      "4": 102,
+      "6": 115,
+      "8": 52
+    },
+    "active_cars_total": 383
+  },
+  {
+    "step": 348,
+    "sim_frame": 348,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 61,
+      "4": 102,
+      "6": 114,
+      "8": 52
+    },
+    "active_cars_total": 383
+  },
+  {
+    "step": 349,
+    "sim_frame": 349,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 60,
+      "4": 102,
+      "6": 114,
+      "8": 52
+    },
+    "active_cars_total": 383
+  },
+  {
+    "step": 350,
+    "sim_frame": 350,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 60,
+      "4": 102,
+      "6": 113,
+      "8": 52
+    },
+    "active_cars_total": 383
+  },
+  {
+    "step": 351,
+    "sim_frame": 351,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 54,
+      "4": 103,
+      "6": 115,
+      "8": 52
+    },
+    "active_cars_total": 385
+  },
+  {
+    "step": 352,
+    "sim_frame": 352,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 43,
+    "queues": {
+      "2": 56,
+      "4": 103,
+      "6": 115,
+      "8": 53
+    },
+    "active_cars_total": 386
+  },
+  {
+    "step": 353,
+    "sim_frame": 353,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 61,
+      "4": 103,
+      "6": 114,
+      "8": 54
+    },
+    "active_cars_total": 387
+  },
+  {
+    "step": 354,
+    "sim_frame": 354,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 63,
+      "4": 104,
+      "6": 114,
+      "8": 54
+    },
+    "active_cars_total": 388
+  },
+  {
+    "step": 355,
+    "sim_frame": 355,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 42,
+    "queues": {
+      "2": 64,
+      "4": 104,
+      "6": 114,
+      "8": 54
+    },
+    "active_cars_total": 388
+  },
+  {
+    "step": 356,
+    "sim_frame": 356,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 43,
+    "queues": {
+      "2": 64,
+      "4": 104,
+      "6": 112,
+      "8": 54
+    },
+    "active_cars_total": 388
+  },
+  {
+    "step": 357,
+    "sim_frame": 357,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 45,
+    "queues": {
+      "2": 64,
+      "4": 104,
+      "6": 112,
+      "8": 53
+    },
+    "active_cars_total": 389
+  },
+  {
+    "step": 358,
+    "sim_frame": 358,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 45,
+    "queues": {
+      "2": 62,
+      "4": 104,
+      "6": 115,
+      "8": 53
+    },
+    "active_cars_total": 392
+  },
+  {
+    "step": 359,
+    "sim_frame": 359,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 45,
+    "queues": {
+      "2": 62,
+      "4": 104,
+      "6": 114,
+      "8": 54
+    },
+    "active_cars_total": 394
+  },
+  {
+    "step": 360,
+    "sim_frame": 360,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 45,
+    "queues": {
+      "2": 63,
+      "4": 105,
+      "6": 114,
+      "8": 54
+    },
+    "active_cars_total": 394
+  },
+  {
+    "step": 361,
+    "sim_frame": 361,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 45,
+    "queues": {
+      "2": 64,
+      "4": 105,
+      "6": 114,
+      "8": 54
+    },
+    "active_cars_total": 394
+  },
+  {
+    "step": 362,
+    "sim_frame": 362,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 45,
+    "queues": {
+      "2": 65,
+      "4": 105,
+      "6": 114,
+      "8": 54
+    },
+    "active_cars_total": 394
+  },
+  {
+    "step": 363,
+    "sim_frame": 363,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 45,
+    "queues": {
+      "2": 65,
+      "4": 106,
+      "6": 113,
+      "8": 54
+    },
+    "active_cars_total": 397
+  },
+  {
+    "step": 364,
+    "sim_frame": 364,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 46,
+    "queues": {
+      "2": 66,
+      "4": 106,
+      "6": 114,
+      "8": 54
+    },
+    "active_cars_total": 397
+  },
+  {
+    "step": 365,
+    "sim_frame": 365,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 46,
+    "queues": {
+      "2": 66,
+      "4": 106,
+      "6": 115,
+      "8": 54
+    },
+    "active_cars_total": 397
+  },
+  {
+    "step": 366,
+    "sim_frame": 366,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 46,
+    "queues": {
+      "2": 65,
+      "4": 106,
+      "6": 116,
+      "8": 54
+    },
+    "active_cars_total": 398
+  },
+  {
+    "step": 367,
+    "sim_frame": 367,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 46,
+    "queues": {
+      "2": 65,
+      "4": 106,
+      "6": 116,
+      "8": 54
+    },
+    "active_cars_total": 398
+  },
+  {
+    "step": 368,
+    "sim_frame": 368,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 46,
+    "queues": {
+      "2": 64,
+      "4": 105,
+      "6": 116,
+      "8": 54
+    },
+    "active_cars_total": 398
+  },
+  {
+    "step": 369,
+    "sim_frame": 369,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 45,
+    "queues": {
+      "2": 64,
+      "4": 105,
+      "6": 115,
+      "8": 54
+    },
+    "active_cars_total": 398
+  },
+  {
+    "step": 370,
+    "sim_frame": 370,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 45,
+    "queues": {
+      "2": 64,
+      "4": 105,
+      "6": 114,
+      "8": 55
+    },
+    "active_cars_total": 400
+  },
+  {
+    "step": 371,
+    "sim_frame": 371,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 45,
+    "queues": {
+      "2": 64,
+      "4": 105,
+      "6": 114,
+      "8": 55
+    },
+    "active_cars_total": 400
+  },
+  {
+    "step": 372,
+    "sim_frame": 372,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 46,
+    "queues": {
+      "2": 65,
+      "4": 105,
+      "6": 113,
+      "8": 55
+    },
+    "active_cars_total": 400
+  },
+  {
+    "step": 373,
+    "sim_frame": 373,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 46,
+    "queues": {
+      "2": 65,
+      "4": 105,
+      "6": 113,
+      "8": 55
+    },
+    "active_cars_total": 400
+  },
+  {
+    "step": 374,
+    "sim_frame": 374,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 46,
+    "queues": {
+      "2": 66,
+      "4": 105,
+      "6": 114,
+      "8": 55
+    },
+    "active_cars_total": 400
+  },
+  {
+    "step": 375,
+    "sim_frame": 375,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 46,
+    "queues": {
+      "2": 66,
+      "4": 105,
+      "6": 116,
+      "8": 55
+    },
+    "active_cars_total": 400
+  },
+  {
+    "step": 376,
+    "sim_frame": 376,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 47,
+    "queues": {
+      "2": 66,
+      "4": 105,
+      "6": 114,
+      "8": 55
+    },
+    "active_cars_total": 400
+  },
+  {
+    "step": 377,
+    "sim_frame": 377,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 66,
+      "4": 105,
+      "6": 114,
+      "8": 55
+    },
+    "active_cars_total": 402
+  },
+  {
+    "step": 378,
+    "sim_frame": 378,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 67,
+      "4": 106,
+      "6": 115,
+      "8": 55
+    },
+    "active_cars_total": 404
+  },
+  {
+    "step": 379,
+    "sim_frame": 379,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 67,
+      "4": 106,
+      "6": 116,
+      "8": 55
+    },
+    "active_cars_total": 404
+  },
+  {
+    "step": 380,
+    "sim_frame": 380,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 68,
+      "4": 106,
+      "6": 116,
+      "8": 55
+    },
+    "active_cars_total": 404
+  },
+  {
+    "step": 381,
+    "sim_frame": 381,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 68,
+      "4": 106,
+      "6": 114,
+      "8": 55
+    },
+    "active_cars_total": 404
+  },
+  {
+    "step": 382,
+    "sim_frame": 382,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 68,
+      "4": 106,
+      "6": 114,
+      "8": 56
+    },
+    "active_cars_total": 405
+  },
+  {
+    "step": 383,
+    "sim_frame": 383,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 68,
+      "4": 106,
+      "6": 114,
+      "8": 56
+    },
+    "active_cars_total": 406
+  },
+  {
+    "step": 384,
+    "sim_frame": 384,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 68,
+      "4": 106,
+      "6": 114,
+      "8": 57
+    },
+    "active_cars_total": 407
+  },
+  {
+    "step": 385,
+    "sim_frame": 385,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 68,
+      "4": 106,
+      "6": 114,
+      "8": 57
+    },
+    "active_cars_total": 407
+  },
+  {
+    "step": 386,
+    "sim_frame": 386,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 68,
+      "4": 106,
+      "6": 114,
+      "8": 57
+    },
+    "active_cars_total": 407
+  },
+  {
+    "step": 387,
+    "sim_frame": 387,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 68,
+      "4": 106,
+      "6": 114,
+      "8": 57
+    },
+    "active_cars_total": 408
+  },
+  {
+    "step": 388,
+    "sim_frame": 388,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 113,
+      "8": 57
+    },
+    "active_cars_total": 408
+  },
+  {
+    "step": 389,
+    "sim_frame": 389,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 110,
+      "8": 57
+    },
+    "active_cars_total": 408
+  },
+  {
+    "step": 390,
+    "sim_frame": 390,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 113,
+      "8": 57
+    },
+    "active_cars_total": 409
+  },
+  {
+    "step": 391,
+    "sim_frame": 391,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 113,
+      "8": 58
+    },
+    "active_cars_total": 409
+  },
+  {
+    "step": 392,
+    "sim_frame": 392,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 114,
+      "8": 58
+    },
+    "active_cars_total": 409
+  },
+  {
+    "step": 393,
+    "sim_frame": 393,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 114,
+      "8": 58
+    },
+    "active_cars_total": 409
+  },
+  {
+    "step": 394,
+    "sim_frame": 394,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 113,
+      "8": 58
+    },
+    "active_cars_total": 409
+  },
+  {
+    "step": 395,
+    "sim_frame": 395,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 113,
+      "8": 58
+    },
+    "active_cars_total": 409
+  },
+  {
+    "step": 396,
+    "sim_frame": 396,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 109,
+      "8": 58
+    },
+    "active_cars_total": 409
+  },
+  {
+    "step": 397,
+    "sim_frame": 397,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 107,
+      "8": 58
+    },
+    "active_cars_total": 409
+  },
+  {
+    "step": 398,
+    "sim_frame": 398,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 107,
+      "8": 58
+    },
+    "active_cars_total": 409
+  },
+  {
+    "step": 399,
+    "sim_frame": 399,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 107,
+      "8": 59
+    },
+    "active_cars_total": 410
+  },
+  {
+    "step": 400,
+    "sim_frame": 400,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 108,
+      "8": 59
+    },
+    "active_cars_total": 410
+  },
+  {
+    "step": 401,
+    "sim_frame": 401,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 107,
+      "8": 60
+    },
+    "active_cars_total": 411
+  },
+  {
+    "step": 402,
+    "sim_frame": 402,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 107,
+      "8": 60
+    },
+    "active_cars_total": 411
+  },
+  {
+    "step": 403,
+    "sim_frame": 403,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 108,
+      "6": 107,
+      "8": 60
+    },
+    "active_cars_total": 413
+  },
+  {
+    "step": 404,
+    "sim_frame": 404,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 108,
+      "6": 107,
+      "8": 60
+    },
+    "active_cars_total": 413
+  },
+  {
+    "step": 405,
+    "sim_frame": 405,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 107,
+      "6": 107,
+      "8": 61
+    },
+    "active_cars_total": 414
+  },
+  {
+    "step": 406,
+    "sim_frame": 406,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 107,
+      "8": 61
+    },
+    "active_cars_total": 414
+  },
+  {
+    "step": 407,
+    "sim_frame": 407,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 69,
+      "4": 106,
+      "6": 107,
+      "8": 61
+    },
+    "active_cars_total": 415
+  },
+  {
+    "step": 408,
+    "sim_frame": 408,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 51,
+    "queues": {
+      "2": 69,
+      "4": 107,
+      "6": 110,
+      "8": 61
+    },
+    "active_cars_total": 415
+  },
+  {
+    "step": 409,
+    "sim_frame": 409,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 51,
+    "queues": {
+      "2": 69,
+      "4": 107,
+      "6": 111,
+      "8": 61
+    },
+    "active_cars_total": 416
+  },
+  {
+    "step": 410,
+    "sim_frame": 410,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 51,
+    "queues": {
+      "2": 69,
+      "4": 107,
+      "6": 113,
+      "8": 61
+    },
+    "active_cars_total": 417
+  },
+  {
+    "step": 411,
+    "sim_frame": 411,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 51,
+    "queues": {
+      "2": 70,
+      "4": 108,
+      "6": 111,
+      "8": 61
+    },
+    "active_cars_total": 418
+  },
+  {
+    "step": 412,
+    "sim_frame": 412,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 51,
+    "queues": {
+      "2": 70,
+      "4": 107,
+      "6": 111,
+      "8": 62
+    },
+    "active_cars_total": 419
+  },
+  {
+    "step": 413,
+    "sim_frame": 413,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 107,
+      "6": 110,
+      "8": 62
+    },
+    "active_cars_total": 419
+  },
+  {
+    "step": 414,
+    "sim_frame": 414,
+    "green_road": 6,
+    "is_clearing": false,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 107,
+      "6": 107,
+      "8": 63
+    },
+    "active_cars_total": 420
+  },
+  {
+    "step": 415,
+    "sim_frame": 415,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 107,
+      "6": 107,
+      "8": 63
+    },
+    "active_cars_total": 420
+  },
+  {
+    "step": 416,
+    "sim_frame": 416,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 107,
+      "6": 110,
+      "8": 63
+    },
+    "active_cars_total": 421
+  },
+  {
+    "step": 417,
+    "sim_frame": 417,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 107,
+      "6": 112,
+      "8": 63
+    },
+    "active_cars_total": 421
+  },
+  {
+    "step": 418,
+    "sim_frame": 418,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 108,
+      "6": 111,
+      "8": 63
+    },
+    "active_cars_total": 422
+  },
+  {
+    "step": 419,
+    "sim_frame": 419,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 110,
+      "6": 114,
+      "8": 63
+    },
+    "active_cars_total": 423
+  },
+  {
+    "step": 420,
+    "sim_frame": 420,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 111,
+      "6": 114,
+      "8": 63
+    },
+    "active_cars_total": 424
+  },
+  {
+    "step": 421,
+    "sim_frame": 421,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 111,
+      "6": 114,
+      "8": 63
+    },
+    "active_cars_total": 424
+  },
+  {
+    "step": 422,
+    "sim_frame": 422,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 112,
+      "6": 114,
+      "8": 63
+    },
+    "active_cars_total": 425
+  },
+  {
+    "step": 423,
+    "sim_frame": 423,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 112,
+      "6": 114,
+      "8": 63
+    },
+    "active_cars_total": 425
+  },
+  {
+    "step": 424,
+    "sim_frame": 424,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 111,
+      "6": 115,
+      "8": 63
+    },
+    "active_cars_total": 425
+  },
+  {
+    "step": 425,
+    "sim_frame": 425,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 52,
+    "queues": {
+      "2": 70,
+      "4": 112,
+      "6": 115,
+      "8": 63
+    },
+    "active_cars_total": 425
+  },
+  {
+    "step": 426,
+    "sim_frame": 426,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 51,
+    "queues": {
+      "2": 70,
+      "4": 112,
+      "6": 116,
+      "8": 63
+    },
+    "active_cars_total": 426
+  },
+  {
+    "step": 427,
+    "sim_frame": 427,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 51,
+    "queues": {
+      "2": 70,
+      "4": 111,
+      "6": 116,
+      "8": 64
+    },
+    "active_cars_total": 427
+  },
+  {
+    "step": 428,
+    "sim_frame": 428,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 51,
+    "queues": {
+      "2": 70,
+      "4": 112,
+      "6": 117,
+      "8": 65
+    },
+    "active_cars_total": 428
+  },
+  {
+    "step": 429,
+    "sim_frame": 429,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 51,
+    "queues": {
+      "2": 70,
+      "4": 112,
+      "6": 118,
+      "8": 65
+    },
+    "active_cars_total": 429
+  },
+  {
+    "step": 430,
+    "sim_frame": 430,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 51,
+    "queues": {
+      "2": 70,
+      "4": 111,
+      "6": 118,
+      "8": 65
+    },
+    "active_cars_total": 429
+  },
+  {
+    "step": 431,
+    "sim_frame": 431,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 70,
+      "4": 112,
+      "6": 118,
+      "8": 65
+    },
+    "active_cars_total": 430
+  },
+  {
+    "step": 432,
+    "sim_frame": 432,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 70,
+      "4": 112,
+      "6": 118,
+      "8": 65
+    },
+    "active_cars_total": 431
+  },
+  {
+    "step": 433,
+    "sim_frame": 433,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 70,
+      "4": 111,
+      "6": 119,
+      "8": 65
+    },
+    "active_cars_total": 431
+  },
+  {
+    "step": 434,
+    "sim_frame": 434,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 70,
+      "4": 111,
+      "6": 120,
+      "8": 65
+    },
+    "active_cars_total": 432
+  },
+  {
+    "step": 435,
+    "sim_frame": 435,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 70,
+      "4": 112,
+      "6": 120,
+      "8": 65
+    },
+    "active_cars_total": 432
+  },
+  {
+    "step": 436,
+    "sim_frame": 436,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 70,
+      "4": 113,
+      "6": 120,
+      "8": 65
+    },
+    "active_cars_total": 434
+  },
+  {
+    "step": 437,
+    "sim_frame": 437,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 70,
+      "4": 113,
+      "6": 121,
+      "8": 65
+    },
+    "active_cars_total": 435
+  },
+  {
+    "step": 438,
+    "sim_frame": 438,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 70,
+      "4": 113,
+      "6": 122,
+      "8": 65
+    },
+    "active_cars_total": 435
+  },
+  {
+    "step": 439,
+    "sim_frame": 439,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 70,
+      "4": 114,
+      "6": 123,
+      "8": 65
+    },
+    "active_cars_total": 437
+  },
+  {
+    "step": 440,
+    "sim_frame": 440,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 71,
+      "4": 114,
+      "6": 124,
+      "8": 65
+    },
+    "active_cars_total": 438
+  },
+  {
+    "step": 441,
+    "sim_frame": 441,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 71,
+      "4": 114,
+      "6": 124,
+      "8": 65
+    },
+    "active_cars_total": 438
+  },
+  {
+    "step": 442,
+    "sim_frame": 442,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 71,
+      "4": 114,
+      "6": 124,
+      "8": 65
+    },
+    "active_cars_total": 438
+  },
+  {
+    "step": 443,
+    "sim_frame": 443,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 71,
+      "4": 114,
+      "6": 124,
+      "8": 65
+    },
+    "active_cars_total": 439
+  },
+  {
+    "step": 444,
+    "sim_frame": 444,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 50,
+    "queues": {
+      "2": 71,
+      "4": 115,
+      "6": 123,
+      "8": 65
+    },
+    "active_cars_total": 440
+  },
+  {
+    "step": 445,
+    "sim_frame": 445,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 49,
+    "queues": {
+      "2": 71,
+      "4": 116,
+      "6": 124,
+      "8": 66
+    },
+    "active_cars_total": 443
+  },
+  {
+    "step": 446,
+    "sim_frame": 446,
+    "green_road": 6,
+    "is_clearing": true,
+    "transit_count": 49,
+    "queues": {
+      "2": 71,
+      "4": 116,
+      "6": 124,
+      "8": 66
+    },
+    "active_cars_total": 443
+  },
+  {
+    "step": 447,
+    "sim_frame": 447,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 71,
+      "4": 116,
+      "6": 124,
+      "8": 66
+    },
+    "active_cars_total": 444
+  },
+  {
+    "step": 448,
+    "sim_frame": 448,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 72,
+      "4": 116,
+      "6": 124,
+      "8": 66
+    },
+    "active_cars_total": 444
+  },
+  {
+    "step": 449,
+    "sim_frame": 449,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 72,
+      "4": 116,
+      "6": 124,
+      "8": 67
+    },
+    "active_cars_total": 445
+  },
+  {
+    "step": 450,
+    "sim_frame": 450,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 72,
+      "4": 116,
+      "6": 125,
+      "8": 68
+    },
+    "active_cars_total": 447
+  },
+  {
+    "step": 451,
+    "sim_frame": 451,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 72,
+      "4": 118,
+      "6": 124,
+      "8": 69
+    },
+    "active_cars_total": 450
+  },
+  {
+    "step": 452,
+    "sim_frame": 452,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 72,
+      "4": 118,
+      "6": 123,
+      "8": 69
+    },
+    "active_cars_total": 451
+  },
+  {
+    "step": 453,
+    "sim_frame": 453,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 72,
+      "4": 117,
+      "6": 124,
+      "8": 69
+    },
+    "active_cars_total": 452
+  },
+  {
+    "step": 454,
+    "sim_frame": 454,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 73,
+      "4": 116,
+      "6": 124,
+      "8": 69
+    },
+    "active_cars_total": 453
+  },
+  {
+    "step": 455,
+    "sim_frame": 455,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 73,
+      "4": 116,
+      "6": 124,
+      "8": 69
+    },
+    "active_cars_total": 454
+  },
+  {
+    "step": 456,
+    "sim_frame": 456,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 74,
+      "4": 116,
+      "6": 125,
+      "8": 69
+    },
+    "active_cars_total": 456
+  },
+  {
+    "step": 457,
+    "sim_frame": 457,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 75,
+      "4": 116,
+      "6": 125,
+      "8": 70
+    },
+    "active_cars_total": 457
+  },
+  {
+    "step": 458,
+    "sim_frame": 458,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 75,
+      "4": 116,
+      "6": 125,
+      "8": 70
+    },
+    "active_cars_total": 458
+  },
+  {
+    "step": 459,
+    "sim_frame": 459,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 76,
+      "4": 115,
+      "6": 126,
+      "8": 70
+    },
+    "active_cars_total": 458
+  },
+  {
+    "step": 460,
+    "sim_frame": 460,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 48,
+    "queues": {
+      "2": 76,
+      "4": 115,
+      "6": 129,
+      "8": 70
+    },
+    "active_cars_total": 460
+  },
+  {
+    "step": 461,
+    "sim_frame": 461,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 77,
+      "4": 113,
+      "6": 129,
+      "8": 70
+    },
+    "active_cars_total": 460
+  },
+  {
+    "step": 462,
+    "sim_frame": 462,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 76,
+      "4": 113,
+      "6": 128,
+      "8": 70
+    },
+    "active_cars_total": 460
+  },
+  {
+    "step": 463,
+    "sim_frame": 463,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 75,
+      "4": 114,
+      "6": 128,
+      "8": 70
+    },
+    "active_cars_total": 460
+  },
+  {
+    "step": 464,
+    "sim_frame": 464,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 49,
+    "queues": {
+      "2": 74,
+      "4": 113,
+      "6": 128,
+      "8": 70
+    },
+    "active_cars_total": 461
+  },
+  {
+    "step": 465,
+    "sim_frame": 465,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 76,
+      "4": 112,
+      "6": 130,
+      "8": 70
+    },
+    "active_cars_total": 462
+  },
+  {
+    "step": 466,
+    "sim_frame": 466,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 76,
+      "4": 112,
+      "6": 130,
+      "8": 70
+    },
+    "active_cars_total": 462
+  },
+  {
+    "step": 467,
+    "sim_frame": 467,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 77,
+      "4": 112,
+      "6": 131,
+      "8": 70
+    },
+    "active_cars_total": 462
+  },
+  {
+    "step": 468,
+    "sim_frame": 468,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 76,
+      "4": 116,
+      "6": 131,
+      "8": 70
+    },
+    "active_cars_total": 463
+  },
+  {
+    "step": 469,
+    "sim_frame": 469,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 76,
+      "4": 115,
+      "6": 131,
+      "8": 70
+    },
+    "active_cars_total": 465
+  },
+  {
+    "step": 470,
+    "sim_frame": 470,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 76,
+      "4": 116,
+      "6": 132,
+      "8": 70
+    },
+    "active_cars_total": 465
+  },
+  {
+    "step": 471,
+    "sim_frame": 471,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 50,
+    "queues": {
+      "2": 77,
+      "4": 116,
+      "6": 132,
+      "8": 70
+    },
+    "active_cars_total": 465
+  },
+  {
+    "step": 472,
+    "sim_frame": 472,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 51,
+    "queues": {
+      "2": 78,
+      "4": 116,
+      "6": 132,
+      "8": 70
+    },
+    "active_cars_total": 465
+  },
+  {
+    "step": 473,
+    "sim_frame": 473,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 52,
+    "queues": {
+      "2": 78,
+      "4": 116,
+      "6": 133,
+      "8": 70
+    },
+    "active_cars_total": 468
+  },
+  {
+    "step": 474,
+    "sim_frame": 474,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 52,
+    "queues": {
+      "2": 78,
+      "4": 112,
+      "6": 134,
+      "8": 70
+    },
+    "active_cars_total": 468
+  },
+  {
+    "step": 475,
+    "sim_frame": 475,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 52,
+    "queues": {
+      "2": 78,
+      "4": 112,
+      "6": 134,
+      "8": 70
+    },
+    "active_cars_total": 469
+  },
+  {
+    "step": 476,
+    "sim_frame": 476,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 52,
+    "queues": {
+      "2": 78,
+      "4": 112,
+      "6": 134,
+      "8": 71
+    },
+    "active_cars_total": 471
+  },
+  {
+    "step": 477,
+    "sim_frame": 477,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 52,
+    "queues": {
+      "2": 78,
+      "4": 114,
+      "6": 135,
+      "8": 71
+    },
+    "active_cars_total": 471
+  },
+  {
+    "step": 478,
+    "sim_frame": 478,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 53,
+    "queues": {
+      "2": 78,
+      "4": 115,
+      "6": 135,
+      "8": 71
+    },
+    "active_cars_total": 472
+  },
+  {
+    "step": 479,
+    "sim_frame": 479,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 53,
+    "queues": {
+      "2": 79,
+      "4": 114,
+      "6": 135,
+      "8": 71
+    },
+    "active_cars_total": 473
+  },
+  {
+    "step": 480,
+    "sim_frame": 480,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 53,
+    "queues": {
+      "2": 79,
+      "4": 114,
+      "6": 135,
+      "8": 71
+    },
+    "active_cars_total": 473
+  },
+  {
+    "step": 481,
+    "sim_frame": 481,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 53,
+    "queues": {
+      "2": 79,
+      "4": 114,
+      "6": 135,
+      "8": 71
+    },
+    "active_cars_total": 475
+  },
+  {
+    "step": 482,
+    "sim_frame": 482,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 53,
+    "queues": {
+      "2": 79,
+      "4": 115,
+      "6": 137,
+      "8": 71
+    },
+    "active_cars_total": 476
+  },
+  {
+    "step": 483,
+    "sim_frame": 483,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 53,
+    "queues": {
+      "2": 79,
+      "4": 113,
+      "6": 137,
+      "8": 71
+    },
+    "active_cars_total": 477
+  },
+  {
+    "step": 484,
+    "sim_frame": 484,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 53,
+    "queues": {
+      "2": 79,
+      "4": 114,
+      "6": 138,
+      "8": 71
+    },
+    "active_cars_total": 478
+  },
+  {
+    "step": 485,
+    "sim_frame": 485,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 53,
+    "queues": {
+      "2": 79,
+      "4": 113,
+      "6": 139,
+      "8": 70
+    },
+    "active_cars_total": 479
+  },
+  {
+    "step": 486,
+    "sim_frame": 486,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 54,
+    "queues": {
+      "2": 79,
+      "4": 113,
+      "6": 139,
+      "8": 70
+    },
+    "active_cars_total": 479
+  },
+  {
+    "step": 487,
+    "sim_frame": 487,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 55,
+    "queues": {
+      "2": 79,
+      "4": 112,
+      "6": 140,
+      "8": 70
+    },
+    "active_cars_total": 480
+  },
+  {
+    "step": 488,
+    "sim_frame": 488,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 55,
+    "queues": {
+      "2": 79,
+      "4": 115,
+      "6": 140,
+      "8": 70
+    },
+    "active_cars_total": 480
+  },
+  {
+    "step": 489,
+    "sim_frame": 489,
+    "green_road": 4,
+    "is_clearing": false,
+    "transit_count": 55,
+    "queues": {
+      "2": 79,
+      "4": 113,
+      "6": 140,
+      "8": 70
+    },
+    "active_cars_total": 481
+  }
+]

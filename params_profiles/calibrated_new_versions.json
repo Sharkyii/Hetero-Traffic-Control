@@ -1,0 +1,46 @@
+{
+  "params": {
+    "idm.IDM_A": 0.6507193235898405,
+    "idm.IDM_B": 2.3288745610903328,
+    "idm.IDM_T": 0.8251868511306378,
+    "idm.IDM_S0": 0.9441710891855069,
+    "lane.DRIVE_FORCE_SCALE": 20.0,
+    "lane.WALL_REPULSION_STRENGTH": 1094.4755179052793,
+    "lane.WALL_REPULSION_RANGE": 0.9052777913675927,
+    "vp.small.repulsion_strength": 8358.232251662928,
+    "vp.small.repulsion_range": 0.44504473697552765,
+    "vp.medium.repulsion_strength": 1509.6912360032609,
+    "vp.medium.repulsion_range": 3.0889689733655006,
+    "vp.large.repulsion_strength": 11545.866003184246,
+    "vp.large.repulsion_range": 1.5
+  },
+  "meta": {
+    "baseline_score": 145.64297111414118,
+    "best_score": 145.45164417097067,
+    "trials": 10,
+    "empirical_priors": {
+      "small": {
+        "empirical_T_s": 1.14915374441343,
+        "max_accel_m_s2": 0.691153016997475,
+        "empirical_s0_m": 0.05
+      },
+      "medium": {
+        "empirical_T_s": 0.8251868511306378,
+        "max_accel_m_s2": 0.6507193235898405,
+        "empirical_s0_m": 0.05
+      },
+      "large": {
+        "empirical_T_s": 1.1729415345944387,
+        "max_accel_m_s2": 0.6455954339063577,
+        "empirical_s0_m": 0.05
+      }
+    },
+    "datasets": [
+      "segments_new_versions/flight_dji003_21_8/road_2/selected_area_data.csv",
+      "segments_new_versions/flight_dji003_21_8/road_4/selected_area_data.csv",
+      "segments_new_versions/flight_dji003_21_8/road_6/selected_area_data.csv",
+      "segments_new_versions/flight_dji003_21_8/road_8/selected_area_data.csv"
+    ]
+  },
+  "saved_at": "2026-10-16T08:37:18"
+}

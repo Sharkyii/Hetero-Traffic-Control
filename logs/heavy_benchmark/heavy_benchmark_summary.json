@@ -1,0 +1,385 @@
+{
+  "timestamp": "2026-10-16T19:42:39",
+  "total_wall_clock_time_s": 3015.134958744049,
+  "completed_jobs": 80,
+  "total_jobs": 80,
+  "profile_path": "/home/om/Traffic-Modelling-/new_sim/params_profiles/universal_calibrated_profile.json",
+  "flights": {
+    "flight_dji003_21_8": {
+      "model1_h_qc_mpc": {
+        "pcu": {
+          "mean": 15.6,
+          "std": 0.0,
+          "ci95_low": 15.6,
+          "ci95_high": 15.6
+        },
+        "stopped_delay_s": {
+          "mean": 34.33333333333333,
+          "std": 7.489778066296963e-15,
+          "ci95_low": 34.33333333333332,
+          "ci95_high": 34.333333333333336
+        },
+        "mean_queue_veh": {
+          "mean": 101.254,
+          "std": 0.0,
+          "ci95_low": 101.254,
+          "ci95_high": 101.254
+        },
+        "trip_time_s": {
+          "mean": 53.87037037037037,
+          "std": 7.489778066296963e-15,
+          "ci95_low": 53.87037037037036,
+          "ci95_high": 53.870370370370374
+        },
+        "samples_count": 10
+      },
+      "model2_vehicle_online_learner": {
+        "pcu": {
+          "mean": 10.8,
+          "std": 0.0,
+          "ci95_low": 10.8,
+          "ci95_high": 10.8
+        },
+        "stopped_delay_s": {
+          "mean": 36.58333333333333,
+          "std": 7.489778066296963e-15,
+          "ci95_low": 36.58333333333332,
+          "ci95_high": 36.583333333333336
+        },
+        "mean_queue_veh": {
+          "mean": 101.94550000000001,
+          "std": 1.4979556132593925e-14,
+          "ci95_low": 101.9455,
+          "ci95_high": 101.94550000000002
+        },
+        "trip_time_s": {
+          "mean": 38.89285714285715,
+          "std": 7.489778066296963e-15,
+          "ci95_low": 38.892857142857146,
+          "ci95_high": 38.89285714285716
+        },
+        "samples_count": 10
+      },
+      "comparison": {
+        "pcu_gain_pct": -30.769230769230766,
+        "pcu_statistical_test": {
+          "t_stat": -151789.32768808215,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        },
+        "stopped_delay_reduction_s": -2.25,
+        "stopped_delay_statistical_test": {
+          "t_stat": -71151.24735378852,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        },
+        "queue_reduction_veh": -0.6915000000000049,
+        "queue_reduction_pct": -0.6829359827759939,
+        "queue_statistical_test": {
+          "t_stat": -21867.150020064495,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        }
+      }
+    },
+    "flight_dji0003_13_5": {
+      "model1_h_qc_mpc": {
+        "pcu": {
+          "mean": 21.0,
+          "std": 0.0,
+          "ci95_low": 21.0,
+          "ci95_high": 21.0
+        },
+        "stopped_delay_s": {
+          "mean": 40.358333333333334,
+          "std": 0.0,
+          "ci95_low": 40.358333333333334,
+          "ci95_high": 40.358333333333334
+        },
+        "mean_queue_veh": {
+          "mean": 88.588,
+          "std": 0.0,
+          "ci95_low": 88.588,
+          "ci95_high": 88.588
+        },
+        "trip_time_s": {
+          "mean": 43.36666666666667,
+          "std": 0.0,
+          "ci95_low": 43.36666666666667,
+          "ci95_high": 43.36666666666667
+        },
+        "samples_count": 10
+      },
+      "model2_vehicle_online_learner": {
+        "pcu": {
+          "mean": 36.39999999999999,
+          "std": 7.489778066296963e-15,
+          "ci95_low": 36.399999999999984,
+          "ci95_high": 36.4
+        },
+        "stopped_delay_s": {
+          "mean": 45.10869565217392,
+          "std": 7.489778066296963e-15,
+          "ci95_low": 45.108695652173914,
+          "ci95_high": 45.10869565217393
+        },
+        "mean_queue_veh": {
+          "mean": 88.7345,
+          "std": 0.0,
+          "ci95_low": 88.7345,
+          "ci95_high": 88.7345
+        },
+        "trip_time_s": {
+          "mean": 52.228260869565226,
+          "std": 7.489778066296963e-15,
+          "ci95_low": 52.22826086956522,
+          "ci95_high": 52.22826086956523
+        },
+        "samples_count": 10
+      },
+      "comparison": {
+        "pcu_gain_pct": 73.3333333333333,
+        "pcu_statistical_test": {
+          "t_stat": 486990.7596659301,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        },
+        "stopped_delay_reduction_s": -4.750362318840587,
+        "stopped_delay_statistical_test": {
+          "t_stat": -150219.64638575248,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        },
+        "queue_reduction_veh": -0.14650000000000318,
+        "queue_reduction_pct": -0.16537228518535602,
+        "queue_statistical_test": {
+          "t_stat": -4632.736772146776,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        }
+      }
+    },
+    "flight_dji0007": {
+      "model1_h_qc_mpc": {
+        "pcu": {
+          "mean": 31.0,
+          "std": 0.0,
+          "ci95_low": 31.0,
+          "ci95_high": 31.0
+        },
+        "stopped_delay_s": {
+          "mean": 34.078947368421055,
+          "std": 0.0,
+          "ci95_low": 34.078947368421055,
+          "ci95_high": 34.078947368421055
+        },
+        "mean_queue_veh": {
+          "mean": 59.69744897959184,
+          "std": 0.0,
+          "ci95_low": 59.69744897959184,
+          "ci95_high": 59.69744897959184
+        },
+        "trip_time_s": {
+          "mean": 63.01315789473684,
+          "std": 0.0,
+          "ci95_low": 63.01315789473684,
+          "ci95_high": 63.01315789473684
+        },
+        "samples_count": 10
+      },
+      "model2_vehicle_online_learner": {
+        "pcu": {
+          "mean": 30.6,
+          "std": 3.744889033148481e-15,
+          "ci95_low": 30.599999999999998,
+          "ci95_high": 30.600000000000005
+        },
+        "stopped_delay_s": {
+          "mean": 31.375,
+          "std": 0.0,
+          "ci95_low": 31.375,
+          "ci95_high": 31.375
+        },
+        "mean_queue_veh": {
+          "mean": 60.443367346938786,
+          "std": 7.489778066296963e-15,
+          "ci95_low": 60.44336734693878,
+          "ci95_high": 60.44336734693879
+        },
+        "trip_time_s": {
+          "mean": 51.222222222222214,
+          "std": 7.489778066296963e-15,
+          "ci95_low": 51.22222222222221,
+          "ci95_high": 51.22222222222222
+        },
+        "samples_count": 10
+      },
+      "comparison": {
+        "pcu_gain_pct": -1.2903225806451568,
+        "pcu_statistical_test": {
+          "t_stat": -12649.11064067347,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        },
+        "stopped_delay_reduction_s": 2.703947368421055,
+        "stopped_delay_statistical_test": {
+          "t_stat": 85506.3235742898,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        },
+        "queue_reduction_veh": -0.7459183673469454,
+        "queue_reduction_pct": -1.2494978932884468,
+        "queue_statistical_test": {
+          "t_stat": -23588.00989370516,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        }
+      }
+    },
+    "flight_dji0005_21_8": {
+      "model1_h_qc_mpc": {
+        "pcu": {
+          "mean": 19.199999999999996,
+          "std": 3.744889033148481e-15,
+          "ci95_low": 19.199999999999992,
+          "ci95_high": 19.2
+        },
+        "stopped_delay_s": {
+          "mean": 20.183333333333334,
+          "std": 0.0,
+          "ci95_low": 20.183333333333334,
+          "ci95_high": 20.183333333333334
+        },
+        "mean_queue_veh": {
+          "mean": 57.80234375,
+          "std": 0.0,
+          "ci95_low": 57.80234375,
+          "ci95_high": 57.80234375
+        },
+        "trip_time_s": {
+          "mean": 44.55,
+          "std": 0.0,
+          "ci95_low": 44.55,
+          "ci95_high": 44.55
+        },
+        "samples_count": 10
+      },
+      "model2_vehicle_online_learner": {
+        "pcu": {
+          "mean": 12.0,
+          "std": 0.0,
+          "ci95_low": 12.0,
+          "ci95_high": 12.0
+        },
+        "stopped_delay_s": {
+          "mean": 14.708333333333334,
+          "std": 0.0,
+          "ci95_low": 14.708333333333334,
+          "ci95_high": 14.708333333333334
+        },
+        "mean_queue_veh": {
+          "mean": 57.85468749999999,
+          "std": 7.489778066296963e-15,
+          "ci95_low": 57.85468749999998,
+          "ci95_high": 57.8546875
+        },
+        "trip_time_s": {
+          "mean": 43.35416666666667,
+          "std": 7.489778066296963e-15,
+          "ci95_low": 43.354166666666664,
+          "ci95_high": 43.35416666666668
+        },
+        "samples_count": 10
+      },
+      "comparison": {
+        "pcu_gain_pct": -37.499999999999986,
+        "pcu_statistical_test": {
+          "t_stat": -227683.99153212315,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        },
+        "stopped_delay_reduction_s": 5.475,
+        "stopped_delay_statistical_test": {
+          "t_stat": 173134.70189421874,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        },
+        "queue_reduction_veh": -0.052343749999991473,
+        "queue_reduction_pct": -0.09055644910590926,
+        "queue_statistical_test": {
+          "t_stat": -1655.2547127441164,
+          "p_value": 1e-09,
+          "significant_999": true,
+          "significant_95": true
+        }
+      }
+    }
+  },
+  "overall_aggregate": {
+    "model1_mean_pcu": {
+      "mean": 21.7,
+      "std": 5.783264981492189,
+      "ci95_low": 19.90774761392693,
+      "ci95_high": 23.49225238607307
+    },
+    "model2_mean_pcu": {
+      "mean": 22.45,
+      "std": 11.389941581534526,
+      "ci95_low": 18.920220534236865,
+      "ci95_high": 25.979779465763134
+    },
+    "overall_pcu_ttest": {
+      "t_stat": 0.3713315831914044,
+      "p_value": 0.7103905769029148,
+      "significant_999": false,
+      "significant_95": false
+    },
+    "model1_mean_stopped_s": {
+      "mean": 32.23848684210527,
+      "std": 7.494173975314597,
+      "ci95_low": 29.916018265637113,
+      "ci95_high": 34.56095541857342
+    },
+    "model2_mean_stopped_s": {
+      "mean": 31.943840579710148,
+      "std": 11.234386221693958,
+      "ci95_low": 28.462268219402656,
+      "ci95_high": 35.42541294001764
+    },
+    "overall_stopped_ttest": {
+      "t_stat": 0.13799056034050586,
+      "p_value": 0.890247877933847,
+      "significant_999": false,
+      "significant_95": false
+    },
+    "model1_mean_queue_veh": {
+      "mean": 76.83544818239795,
+      "std": 18.881263457997985,
+      "ci95_low": 70.98408401475785,
+      "ci95_high": 82.68681235003805
+    },
+    "model2_mean_queue_veh": {
+      "mean": 77.2445137117347,
+      "std": 18.94934129299759,
+      "ci95_low": 71.37205200445095,
+      "ci95_high": 83.11697541901844
+    },
+    "overall_queue_ttest": {
+      "t_stat": -0.0967150121773227,
+      "p_value": 0.9229527177277432,
+      "significant_999": false,
+      "significant_95": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "params": {
+    "idm.IDM_A": 0.8,
+    "idm.IDM_B": 2.5,
+    "idm.IDM_T": 0.6,
+    "idm.IDM_S0": 0.3,
+    "lane.DRIVE_FORCE_SCALE": 1000.0,
+    "lane.WALL_REPULSION_STRENGTH": 400.0,
+    "lane.WALL_REPULSION_RANGE": 1.5,
+    "vp.small.repulsion_strength": 5619.5,
+    "vp.small.repulsion_range": 0.57,
+    "vp.medium.repulsion_strength": 3806.4,
+    "vp.medium.repulsion_range": 0.46,
+    "vp.large.repulsion_strength": 3570.9,
+    "vp.large.repulsion_range": 0.14
+  },
+  "meta": {
+    "note": "original values captured from source, before any tuning"
+  },
+  "saved_at": "2026-06-20T14:06:29"
+}

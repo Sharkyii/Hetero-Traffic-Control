@@ -1,0 +1,26 @@
+{
+  "params": {
+    "idm.IDM_A": 2.799299773263596,
+    "idm.IDM_B": 2.5,
+    "idm.IDM_T": 0.05,
+    "idm.IDM_S0": 0.1,
+    "lane.DRIVE_FORCE_SCALE": 100.0,
+    "lane.WALL_REPULSION_STRENGTH": 50.0,
+    "lane.WALL_REPULSION_RANGE": 1.2052017163147293,
+    "vp.small.repulsion_strength": 8000.0,
+    "vp.small.repulsion_range": 0.8461450977994609,
+    "vp.medium.repulsion_strength": 3806.4,
+    "vp.medium.repulsion_range": 0.8847711706735685,
+    "vp.large.repulsion_strength": 3570.9,
+    "vp.large.repulsion_range": 0.05
+  },
+  "meta": {
+    "baseline_score": 152.4592765520688,
+    "best_score": 151.85688978778938,
+    "trials": 3,
+    "csv": "selected_area_data.csv",
+    "polygon": "polygon_points.json",
+    "run_id": "2026-06-20T14:37:14"
+  },
+  "saved_at": "2026-06-20T14:37:26"
+}

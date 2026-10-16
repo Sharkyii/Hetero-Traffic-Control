@@ -1,0 +1,46 @@
+{
+  "model_name": "model1_h_qc_mpc",
+  "dataset_source": "flight_dji003_21_8",
+  "simulated_frames": 500,
+  "duration_seconds": 125.0,
+  "duration_hours": 0.034722222222222224,
+  "completed_vehicles": 27,
+  "completed_pcu": 15.6,
+  "throughput_veh_per_hour": 777.5999999999999,
+  "throughput_pcu_per_hour": 449.28,
+  "class_breakdown": {
+    "small": 86,
+    "medium": 29,
+    "large": 12
+  },
+  "mean_trip_time_s": 53.870370370370374,
+  "p95_trip_time_s": 112.69999999999999,
+  "max_trip_time_s": 118.75,
+  "mean_stopped_s": 34.333333333333336,
+  "percent_vehicles_stopped": 85.18518518518519,
+  "average_speed_m_s": 0.11923793195156701,
+  "mean_queue_by_arm": {
+    "2": 42.144,
+    "4": 92.54,
+    "6": 194.802,
+    "8": 75.53
+  },
+  "max_queue_by_arm": {
+    "2": 90,
+    "4": 143,
+    "6": 264,
+    "8": 102
+  },
+  "overall_mean_queue": 101.254,
+  "overall_max_queue": 264,
+  "mean_queue": 101.254,
+  "max_queue": 264,
+  "cycle_count": 1,
+  "phase_switches": 4,
+  "mean_green_duration_s": 20.0,
+  "early_cutoffs_count": 4,
+  "elastic_extensions_count": 0,
+  "saved_clearance_s": 0.0,
+  "adaptive_turning_ratios_R_hat": null,
+  "in_junction_collisions": 1
+}

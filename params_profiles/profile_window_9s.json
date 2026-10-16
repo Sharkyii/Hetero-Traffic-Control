@@ -1,0 +1,45 @@
+{
+  "params": {
+    "idm.IDM_A": 0.6507193235898405,
+    "idm.IDM_B": 2.2955009421468606,
+    "idm.IDM_T": 0.895794530959355,
+    "idm.IDM_S0": 0.7564106544780891,
+    "lane.DRIVE_FORCE_SCALE": 20.0,
+    "lane.WALL_REPULSION_STRENGTH": 1686.5007377401535,
+    "lane.WALL_REPULSION_RANGE": 0.9052777913675927,
+    "vp.small.repulsion_strength": 8358.232251662928,
+    "vp.small.repulsion_range": 0.44504473697552765,
+    "vp.medium.repulsion_strength": 200.0,
+    "vp.medium.repulsion_range": 4.001889304108929,
+    "vp.large.repulsion_strength": 11545.866003184246,
+    "vp.large.repulsion_range": 1.6365731992206753
+  },
+  "meta": {
+    "window_seconds": 9,
+    "window_frames": 36,
+    "baseline_score": 123.06879013764322,
+    "best_score": 123.05419473393484,
+    "ade_mean_m": 43.627413734624916,
+    "fde_mean_m": 77.28608489398589,
+    "avg_flips_per_car": 0.14271307368826894,
+    "trials": 15,
+    "empirical_priors": {
+      "small": {
+        "empirical_T_s": 1.14915374441343,
+        "max_accel_m_s2": 0.691153016997475,
+        "empirical_s0_m": 0.05
+      },
+      "medium": {
+        "empirical_T_s": 0.8251868511306378,
+        "max_accel_m_s2": 0.6507193235898405,
+        "empirical_s0_m": 0.05
+      },
+      "large": {
+        "empirical_T_s": 1.1729415345944387,
+        "max_accel_m_s2": 0.6455954339063577,
+        "empirical_s0_m": 0.05
+      }
+    }
+  },
+  "saved_at": "2026-10-16T18:51:50"
+}

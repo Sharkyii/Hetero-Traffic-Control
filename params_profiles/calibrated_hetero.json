@@ -1,0 +1,45 @@
+{
+  "params": {
+    "idm.IDM_A": 0.6508876776082118,
+    "idm.IDM_B": 2.3288745610903328,
+    "idm.IDM_T": 0.915768294018671,
+    "idm.IDM_S0": 0.9441710891855069,
+    "lane.DRIVE_FORCE_SCALE": 20.0,
+    "lane.WALL_REPULSION_STRENGTH": 1094.4755179052793,
+    "lane.WALL_REPULSION_RANGE": 0.9052777913675927,
+    "vp.small.repulsion_strength": 8358.232251662928,
+    "vp.small.repulsion_range": 0.44504473697552765,
+    "vp.medium.repulsion_strength": 1509.6912360032609,
+    "vp.medium.repulsion_range": 2.5770555546499887,
+    "vp.large.repulsion_strength": 11545.866003184246,
+    "vp.large.repulsion_range": 1.5
+  },
+  "meta": {
+    "baseline_score": 311.3981872504052,
+    "best_score": 306.598201865613,
+    "trials": 3,
+    "empirical_priors": {
+      "small": {
+        "empirical_T_s": 1.1953859843679362,
+        "max_accel_m_s2": 0.6987947856520079,
+        "empirical_s0_m": 0.05
+      },
+      "medium": {
+        "empirical_T_s": 0.915768294018671,
+        "max_accel_m_s2": 0.6508876776082118,
+        "empirical_s0_m": 0.05
+      },
+      "large": {
+        "empirical_T_s": 1.050313856937712,
+        "max_accel_m_s2": 0.6417479631688928,
+        "empirical_s0_m": 0.05
+      }
+    },
+    "datasets": [
+      "segments/od4/road_2/selected_area_data.csv",
+      "segments/od4/road_4/selected_area_data.csv",
+      "segments/od4/road_6/selected_area_data.csv"
+    ]
+  },
+  "saved_at": "2026-10-15T19:10:00"
+}
