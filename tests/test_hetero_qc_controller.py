@@ -19,7 +19,7 @@ import pytest
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from phase_controller_hetero_qc import (
+from controllers.max_pressure import (
     HeteroQueueClearingController,
     ENTRY_ROADS, ALL_EXITS, DEFAULT_PCU_WEIGHTS
 )

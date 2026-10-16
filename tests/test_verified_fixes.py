@@ -18,9 +18,9 @@ import pytest
 os.environ["SDL_VIDEODRIVER"] = "dummy"
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import road_transition_verified as RT_fixed
-import Forces.idm1_verified as IDM_fixed
-import phase_schedule_verified as PS_fixed
+import simulation.road_geometry as RT_fixed
+import models.idm as IDM_fixed
+import controllers.signal_schedule as PS_fixed
 
 
 class MockCar:

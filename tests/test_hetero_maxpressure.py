@@ -18,7 +18,7 @@ import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from phase_controller_hetero import (
+from controllers.baseline_max_pressure import (
     HeterogeneousMaxPressureController,
     ENTRY_ROADS, ALL_EXITS, DEFAULT_PCU_WEIGHTS
 )

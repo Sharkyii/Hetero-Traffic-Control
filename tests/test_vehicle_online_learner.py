@@ -17,7 +17,7 @@ import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from vehicle_online_learner import VehicleOnlineLearner, PARAM_BOUNDS, CLASS_PRIORS
+from models.vehicle_learner import VehicleOnlineLearner, PARAM_BOUNDS, CLASS_PRIORS
 
 
 def test_contextual_prior_differentiation():

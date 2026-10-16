@@ -1,0 +1,109 @@
+{
+  "dataset": "flight_dji0005_21_8",
+  "simulated_frames": 20,
+  "model1_h_qc_mpc": {
+    "model_name": "model1_h_qc_mpc",
+    "dataset_source": "flight_dji0005_21_8",
+    "simulated_frames": 20,
+    "duration_seconds": 5.0,
+    "duration_hours": 0.001388888888888889,
+    "completed_vehicles": 6,
+    "completed_pcu": 7.8,
+    "throughput_veh_per_hour": 4320.0,
+    "throughput_pcu_per_hour": 5616.0,
+    "class_breakdown": {
+      "small": 32,
+      "medium": 23,
+      "large": 9
+    },
+    "mean_trip_time_s": 1.125,
+    "p95_trip_time_s": 3.625,
+    "max_trip_time_s": 4.0,
+    "mean_stopped_s": 2.125,
+    "percent_vehicles_stopped": 66.66666666666666,
+    "average_speed_m_s": 0.5842842479133105,
+    "mean_queue_by_arm": {
+      "2": 8.15,
+      "4": 13.1,
+      "6": 7.45,
+      "8": 24.25
+    },
+    "max_queue_by_arm": {
+      "2": 15,
+      "4": 22,
+      "6": 37,
+      "8": 36
+    },
+    "overall_mean_queue": 13.2375,
+    "overall_max_queue": 37,
+    "mean_queue": 13.2375,
+    "max_queue": 37,
+    "cycle_count": 0,
+    "phase_switches": 0,
+    "mean_green_duration_s": 0.0,
+    "early_cutoffs_count": 0,
+    "elastic_extensions_count": 0,
+    "saved_clearance_s": 0.0,
+    "adaptive_turning_ratios_R_hat": null,
+    "in_junction_collisions": 1
+  },
+  "model2_vehicle_online_learner": {
+    "model_name": "model2_vehicle_online_learner",
+    "dataset_source": "flight_dji0005_21_8",
+    "simulated_frames": 20,
+    "duration_seconds": 5.0,
+    "duration_hours": 0.001388888888888889,
+    "completed_vehicles": 6,
+    "completed_pcu": 7.8,
+    "throughput_veh_per_hour": 4320.0,
+    "throughput_pcu_per_hour": 5616.0,
+    "class_breakdown": {
+      "small": 33,
+      "medium": 23,
+      "large": 9
+    },
+    "mean_trip_time_s": 1.0,
+    "p95_trip_time_s": 3.3125,
+    "max_trip_time_s": 3.75,
+    "mean_stopped_s": 2.6666666666666665,
+    "percent_vehicles_stopped": 83.33333333333334,
+    "average_speed_m_s": 0.47423364054079037,
+    "mean_queue_by_arm": {
+      "2": 12.55,
+      "4": 17.05,
+      "6": 7.45,
+      "8": 25.2
+    },
+    "max_queue_by_arm": {
+      "2": 15,
+      "4": 22,
+      "6": 37,
+      "8": 36
+    },
+    "overall_mean_queue": 15.5625,
+    "overall_max_queue": 37,
+    "mean_queue": 15.5625,
+    "max_queue": 37,
+    "cycle_count": 0,
+    "phase_switches": 0,
+    "mean_green_duration_s": 0.0,
+    "early_cutoffs_count": 0,
+    "elastic_extensions_count": 0,
+    "saved_clearance_s": 0.0,
+    "adaptive_turning_ratios_R_hat": null,
+    "in_junction_collisions": 1,
+    "learner_stats": {
+      "active_learners": 152,
+      "mean_T": 0.7799831339841788,
+      "mean_A": 1.314992387432848,
+      "mean_S0": 0.7393916868848409,
+      "total_registered": 155,
+      "total_updates": 1807
+    }
+  },
+  "comparison": {
+    "pcu_throughput_diff": 0.0,
+    "stopped_delay_reduction_s": -0.5416666666666665,
+    "total_saved_clearance_s": 0.0
+  }
+}

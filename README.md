@@ -1,15 +1,15 @@
-# Empirical Traffic Modelling & Dual-Intelligence Adaptive Signal Control
+# Empirical Traffic Modelling and Dual-Intelligence Adaptive Signal Control
 
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![Tests](https://img.shields.io/badge/Tests-26%20Passed-brightgreen.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)]()
 
 A high-performance microscopic traffic simulation and adaptive signal control framework empirically calibrated on drone trajectory datasets of heterogeneous, unstructured Indian urban intersections.
 
 ---
 
-## 📌 Highlights & Core Architecture
+## Highlights and Core Architecture
 
 This framework introduces a **Dual-Intelligence Architecture** uniting macroscopic adaptive signal control with microscopic driver parameter personalization:
 
@@ -23,7 +23,7 @@ flowchart TD
     end
 
     subgraph Micro ["Micro Layer: Intelligent Driver Model + Potential Fields"]
-        F["Empirical Priors (OD4 Drone Tracks)<br>Small: T=1.20s | Med: T=0.92s | Large: T=1.05s"] --> G["2D Physics Engine<br>(IDM Car-Following + Lateral Wall Repulsion)"]
+        F["Empirical Priors (Drone Trajectories)<br>Small: T=1.20s | Med: T=0.92s | Large: T=1.05s"] --> G["2D Physics Engine<br>(IDM Car-Following + Lateral Wall Repulsion)"]
         G --> H["Online Dual-EKF Estimator<br>Real-time adaptation of [T_i, a_max^(i), s_{0,i}]"]
     end
 
@@ -32,23 +32,23 @@ flowchart TD
 ```
 
 1. **Model 1: Heterogeneous Queue-Clearing Max-Pressure Controller (H-QC-MPC)**
-   * **Exhaustive Queue Service:** Holds green phase dynamically until all queued vehicles on the active approach have safely crossed.
-   * **Event-Driven Dynamic Clearance:** Eliminates the rigid 6.0s Indian IRC all-red timer. Uses real-time polygon intersection boundary collision auditing to turn the next green **the exact instant** crossing vehicles vacate the junction box.
-   * **Heterogeneous PCU Weighting:** Implements IRC 106-1990 standard queue weighting ($\gamma_{\text{small}} = 0.5$, $\gamma_{\text{medium}} = 1.0$, $\gamma_{\text{large}} = 2.5$).
-   * **Online Turning Estimation:** Real-time Exponential Moving Average (EMA) estimator ($\beta = 0.10$) dynamically tracking turn ratios $\hat{R}_{l,m}$.
-   * **Anti-Starvation Preemption:** High-penalty watchdog preventing non-priority arms from waiting beyond user-configured thresholds.
+   * **Exhaustive Queue Service:** Holds the active green phase dynamically until all queued vehicles on the active approach have safely discharged.
+   * **Event-Driven Dynamic Clearance:** Replaces the rigid 6.0s Indian IRC all-red clearance interval. Uses real-time polygon intersection boundary auditing to trigger the next phase the exact instant cleared vehicles vacate the junction conflict box.
+   * **Heterogeneous PCU Weighting:** Implements Indian Roads Congress (IRC: 106-1990) standard vehicle weighting ($\gamma_{\text{small}} = 0.5$, $\gamma_{\text{medium}} = 1.0$, $\gamma_{\text{large}} = 2.5$).
+   * **Online Turning Estimation:** Real-time Exponential Moving Average (EMA) estimator ($\beta = 0.10$) dynamically tracking turn proportions $\hat{R}_{l,m}$.
+   * **Anti-Starvation Preemption:** High-penalty watchdog ensuring cross-traffic approaches never exceed maximum wait thresholds.
 
 2. **Model 2: Online Microscopic Dual-EKF Vehicle Learner**
    * **Dynamic Headway Personalization:** Replaces static IDM car-following parameters ($T, a_{\max}, s_0$) with an analytical zero-allocation Extended Kalman Filter running per active vehicle.
-   * **Resolves Phantom Braking:** Reconstructs empirical gap compression ($s_0 \to 0.35\text{m}$, $T \to 0.65\text{s}$) during green discharge, achieving up to **+73.3% throughput gain** in dense platoons without collisions.
+   * **Resolves Phantom Braking:** Reconstructs empirical gap compression ($s_0 \to 0.35\text{ m}$, $T \to 0.65\text{ s}$) during green discharge, achieving up to **+73.3% throughput gain** in dense platoons without collisions.
 
 ---
 
-## 📊 Benchmark Results
+## Benchmark Results
 
 Evaluated across **80 Monte Carlo benchmark simulations** (4 real drone flight datasets $\times$ 2 models $\times$ 10 random seeds):
 
-| Dataset Flight | Traffic Regime | Model 1: H-QC-MPC | Model 2: H-QC-MPC + EKF | Throughput Gain | Stopped Delay Diff | Statistical Test |
+| Dataset Flight | Traffic Regime | Model 1: H-QC-MPC | Model 2: H-QC-MPC + EKF | Throughput Gain | Stopped Delay Diff | Statistical Significance |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
 | **`flight_dji0003_13_5`** | Dense Platoon Discharge | $21.0 \pm 0.0$ PCU | **$36.4 \pm 0.0$ PCU** | **$+73.3\%$** | $+4.75\text{ s}$ | $p < 10^{-9}\ (***)$ |
 | **`flight_dji0007`** | Balanced 4-Way Flow | $31.0 \pm 0.0$ PCU | $30.6 \pm 0.0$ PCU | $-1.3\%$ | **$-2.70\text{ s}$** (faster) | $p < 10^{-9}\ (***)$ |
@@ -56,30 +56,30 @@ Evaluated across **80 Monte Carlo benchmark simulations** (4 real drone flight d
 | **`flight_dji003_21_8`** | Heavy Asymmetric Queue | $15.6 \pm 0.0$ PCU | $10.8 \pm 0.0$ PCU | $-30.8\%$ | $+2.25\text{ s}$ | $p < 10^{-9}\ (***)$ |
 | **Cross-Flight Average** | Overall Mean | $21.7 \pm 5.8$ PCU | **$22.4 \pm 11.4$ PCU** | **$+3.5\%$** | — | $p < 10^{-9}\ (***)$ |
 
-### Tail Latency & Progression Velocity Impact
-* **P95 Trip Duration:** In `flight_dji0007`, Model 2 collapsed 95th-percentile trip latency by **$-21.9\text{s}$** (from $111.6\text{s} \to 89.7\text{s}$). In `flight_dji003_21_8`, latency fell by **$-17.5\text{s}$**.
-* **Progression Speed:** Model 2 accelerated dense platoon discharge by **+27%** ($0.129\text{ m/s} \to 0.164\text{ m/s}$) due to instantaneous reaction adaptation.
-* **Safety:** Exactly **0 collisions** across all 80 benchmark runs.
+### Tail Latency and Progression Velocity Impact
+* **P95 Trip Duration:** In `flight_dji0007`, Model 2 reduced 95th-percentile trip latency by **$-21.9\text{ s}$** (from $111.6\text{ s} \to 89.7\text{ s}$). In `flight_dji003_21_8`, latency fell by **$-17.5\text{ s}$**.
+* **Progression Speed:** Model 2 accelerated dense platoon discharge by **+27%** ($0.129\text{ m/s} \to 0.164\text{ m/s}$) due to instantaneous driver headway adaptation.
+* **Safety:** Zero collisions observed across all 80 benchmark runs.
 
 ---
 
-## 📈 Publication Figures
+## Publication Figures
 
-All figures are pre-generated at 300 DPI inside [`figures/`](figures/):
+Publication figures are rendered at 300 DPI adhering to IEEE Transactions and Transportation Research Part C visual standards inside [`results/figures/`](results/figures/):
 
-1. **Cross-Dataset Throughput Comparison:** [`figures/fig1_throughput_comparison.png`](figures/fig1_throughput_comparison.png)
-2. **Stopped Delay & P95 Travel Latency:** [`figures/fig2_delay_travel_time.png`](figures/fig2_delay_travel_time.png)
-3. **Queue Distribution by Approach Arm:** [`figures/fig3_queue_dynamics_per_arm.png`](figures/fig3_queue_dynamics_per_arm.png)
-4. **Multi-Window Horizon Sensitivity ($\tau = 1\text{s} \dots 10\text{s}$):** [`figures/fig4_multi_window_sensitivity.png`](figures/fig4_multi_window_sensitivity.png)
-5. **Microscopic Online Dual-EKF Parameter Trajectories:** [`figures/fig5_dual_ekf_trajectories.png`](figures/fig5_dual_ekf_trajectories.png)
+1. **Cross-Dataset Throughput Comparison:** [`results/figures/fig1_throughput_comparison.png`](results/figures/fig1_throughput_comparison.png)
+2. **Stopped Delay and P95 Travel Latency:** [`results/figures/fig2_delay_travel_time.png`](results/figures/fig2_delay_travel_time.png)
+3. **Queue Distribution by Approach Arm:** [`results/figures/fig3_queue_dynamics_per_arm.png`](results/figures/fig3_queue_dynamics_per_arm.png)
+4. **Multi-Window Horizon Sensitivity ($\tau = 1\text{ s} \dots 10\text{ s}$):** [`results/figures/fig4_multi_window_sensitivity.png`](results/figures/fig4_multi_window_sensitivity.png)
+5. **Microscopic Online Dual-EKF Parameter Trajectories:** [`results/figures/fig5_dual_ekf_trajectories.png`](results/figures/fig5_dual_ekf_trajectories.png)
 
 ---
 
-## 🔬 Multi-Window Horizon Sensitivity Matrix
+## Multi-Window Horizon Sensitivity Matrix
 
-Calibrated over 10 discrete prediction horizons $\tau \in [1\text{s}, 10\text{s}]$:
+Calibrated over 10 discrete prediction horizons $\tau \in [1\text{ s}, 10\text{ s}]$:
 
-| Horizon $\tau$ | ADE ($\text{m}$) | FDE ($\text{m}$) | Loss Score | Calibrated $T$ ($\text{s}$) | Calibrated $a_{\max}$ ($\text{m/s}^2$) | Calibrated $s_0$ ($\text{m}$) |
+| Horizon $\tau$ | ADE ($\text{m}$) | FDE ($\text{m}$) | Objective Loss | Calibrated $T$ ($\text{s}$) | Calibrated $a_{\max}$ ($\text{m/s}^2$) | Calibrated $s_0$ ($\text{m}$) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **1 s** | **5.95** | **10.96** | 17.76 | 0.942 | 0.651 | 0.872 |
 | **2 s** | 11.98 | 22.03 | 35.23 | 0.825 | 0.651 | 0.944 |
@@ -94,7 +94,7 @@ Calibrated over 10 discrete prediction horizons $\tau \in [1\text{s}, 10\text{s}
 
 ---
 
-## 🚀 Quickstart & Usage
+## Quickstart and Usage
 
 ### 1. Installation
 ```bash
@@ -105,67 +105,89 @@ pip install -r requirements.txt
 
 ### 2. Verify Unit Test Suite (26 Tests)
 ```bash
+python main.py --test
+# or directly:
 pytest tests/
 ```
 
 ### 3. Interactive Visual Simulation with Real-Time Pygame HUD
 Launch the real-time simulation with live queue HUD and signal controller:
 ```bash
-python junction_sim_hetero_qc.py --source flight_dji0003_13_5
+python main.py --sim --flight flight_dji0003_13_5
 ```
 
 ### 4. Headless Dual-Model Comparison
-Evaluate both models head-to-head on any flight:
+Evaluate Model 1 vs. Model 2 head-to-head on any empirical flight recording:
 ```bash
-python evaluate_dual_new_models.py --source flight_dji0003_13_5 --frames 500 --profile params_profiles/universal_calibrated_profile.json
+python main.py --eval --flight flight_dji0003_13_5 --frames 500
 ```
 
 ### 5. Multi-Core Benchmark Suite (16 Parallel Workers)
+Execute Monte Carlo simulations across multiple random seeds and datasets:
 ```bash
-python run_heavy_benchmark.py --seeds 10 --workers 16
+python main.py --benchmark --seeds 10 --workers 16
 ```
 
 ### 6. Re-Generate Publication Figures
 ```bash
-python generate_publication_figures.py
+python main.py --figures
 ```
 
 ---
 
-## 📂 Repository Directory Layout
+## Repository Directory Layout
 
 ```
 Hetero-Traffic-Control/
-├── figures/                              # 300 DPI publication plots (fig1 - fig5)
-├── Forces/                               # Microscopic physics, IDM car-following & potential fields
-│   ├── calibration.py                    # Vehicle geometry classification & priors
-│   ├── idm1_verified.py                  # Numerically stable Intelligent Driver Model
-│   └── lane_forces.py                    # Solenoidal driving force & boundary wall repulsion
-├── params_profiles/                      # Calibrated parameter profiles & multi-window horizons
-│   ├── universal_calibrated_profile.json # Master cross-flight calibrated IDM & lateral force profile
-│   ├── multi_window_sensitivity.json     # Horizon sensitivity matrix across tau = 1s..10s
-│   └── profile_window_*.json             # Individual horizon calibration JSONs
-├── segments_new_versions/                # Empirical drone tracking datasets (4 flight recordings)
-├── tests/                                # Automated verification test suite (26 tests)
+├── controllers/                          # Macroscopic traffic signal controllers
+│   ├── baseline_max_pressure.py          # Classical Heterogeneous Max-Pressure (Lioris et al., 2016)
+│   ├── max_pressure.py                   # Proposed Heterogeneous Queue-Clearing MPC (H-QC-MPC)
+│   └── phase_scheduler.py                # IRC 4-phase cyclic and actuated stage schedules
+├── models/                               # Microscopic car-following & driver learning models
+│   ├── idm.py                            # Numerically stable Intelligent Driver Model (Treiber et al., 2000)
+│   ├── potential_fields.py               # Solenoidal driving forces & lateral boundary wall repulsion
+│   ├── vehicle_classifier.py             # Empirical priors & multi-objective trajectory loss
+│   └── vehicle_learner.py                # Online zero-allocation Dual-EKF parameter learner
+├── simulation/                           # Physics simulation engine & visualizer
+│   ├── config.py                         # Physical constants, road topology & IRC vehicle dimensions
+│   ├── data_loader.py                    # Drone CSV trajectory parser with temporal index caching
+│   ├── junction_sim.py                   # Pygame visual simulation loop with real-time HUD
+│   ├── road_geometry.py                  # Bezier curve transit, boundary clamping & collision mechanics
+│   ├── segment_evaluator.py              # Offline single-polygon trajectory replay evaluator
+│   └── visualizer.py                     # Visualizer integration & real-time telemetry rendering
+├── calibration/                          # Offline optimization & parameter space management
+│   ├── force_optimizer.py                # Multi-objective parameter search using empirical drone priors
+│   ├── horizon_optimizer.py              # Lookahead prediction horizon sensitivity optimizer (tau = 1s..10s)
+│   ├── param_profile.py                  # Parameter profile persistence & runtime injection
+│   ├── param_space.py                    # Parameter bounds & definitions
+│   └── profiles/                         # Master calibrated parameter profiles (JSON)
+├── experiments/                          # Headless evaluation, benchmarks & figure generators
+│   ├── batch_evaluate.py                 # Multi-flight batch evaluation runner
+│   ├── evaluate_flight.py                # Head-to-head dual model evaluation pipeline
+│   ├── generate_figures.py               # 300 DPI publication figure generator
+│   └── run_monte_carlo.py                # Multi-core parallel Monte Carlo benchmark suite
+├── data/                                 # Empirical trajectory data & metadata
+│   ├── metadata/                         # Intersection polygon boundaries & turning movement ratios
+│   └── trajectories/                     # Git-LFS tracked drone trajectory recordings (.csv)
+├── results/                              # Output metrics, benchmark logs & publication figures
+│   ├── figures/                          # Vector/raster publication figures (fig1 - fig5)
+│   └── logs/                             # Per-flight Monte Carlo JSON metrics & parameter traces
+├── tests/                                # Automated verification test suite (26 unit tests)
 │   ├── test_hetero_maxpressure.py        # Validates Max-Pressure, PCU weighting & turning estimation
-│   ├── test_hetero_qc_controller.py     # Validates exhaustive clearing & dynamic box clearance
+│   ├── test_hetero_qc_controller.py      # Validates exhaustive clearing & dynamic box clearance
 │   ├── test_vehicle_online_learner.py    # Validates Dual-EKF parameter convergence & speed
-│   └── test_verified_fixes.py            # Regression test suite for junction physics fixes
-├── batch_evaluate_all_flights.py         # Batch evaluator across all drone datasets
-├── evaluate_dual_new_models.py           # Core head-to-head evaluation pipeline
-├── generate_publication_figures.py       # Publication figure plotting pipeline
-├── junction_sim_hetero_qc.py             # Visual simulation engine with real-time HUD
-├── phase_controller_hetero_qc.py         # Heterogeneous Queue-Clearing Max-Pressure Controller
-├── run_heavy_benchmark.py                # Heavy parallel Monte Carlo simulation campaign
-├── tune_temporal_windows.py              # Multi-window lookahead optimizer
-├── vehicle_online_learner.py             # Microscopic online Dual-EKF parameter learner
-├── requirements.txt                      # Python dependencies
-└── README.md                             # Project documentation
+│   └── test_verified_fixes.py            # Regression test suite for junction collision mechanics
+├── .gitattributes                        # Git LFS tracking rules for trajectory datasets
+├── .gitignore                            # Python, Pygame, and log exclusion patterns
+├── LICENSE                               # MIT License
+├── main.py                               # Unified entrypoint CLI
+├── README.md                             # Academic project documentation
+└── requirements.txt                      # Python dependencies
 ```
 
 ---
 
-## 📚 References & Theoretical Foundations
+## References and Theoretical Foundations
 
 * **Adaptive Max-Pressure Signal Control:**
   Lioris, J., Kurzhanskiy, A. A., & Varaiya, P. (2016). *Adaptive max pressure control of network of signalized intersections*. IFAC-PapersOnLine, 49(22), 19-24.
@@ -176,5 +198,5 @@ Hetero-Traffic-Control/
 
 ---
 
-## 📜 License
-This project is open-source under the MIT License.
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
