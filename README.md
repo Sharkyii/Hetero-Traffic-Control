@@ -122,6 +122,28 @@ All figures are generated at 300 DPI following IEEE Transactions and Transportat
   * In **Flight 003 (Asymmetric)**, Arm 6 exhibits an extreme queue of **$194.8$ vehicles**—nearly $5\times$ the volume of Arm 2 ($42.1$ veh).
 * **Anti-Starvation Pressure Control:** Traditional fixed-cycle timers leave heavily loaded arms stranded. The PCU-weighted Max-Pressure controller detects the massive pressure differential ($\Delta P > 150$) and extends green clearance on Arm 6 while using dynamic conflict-box clearance auditing to rapidly cycle through lighter cross-streets without starvation.
 
+> [!IMPORTANT]
+> ### Technical Spotlight: Why Do Flight 0003 and Flight 003 Show Similar Queue Distributions but Divergent Throughput?
+> A critical empirical observation in **Figure 3** is that both **Flight 0003 (Dense Platoon)** and **Flight 003 (Asymmetric Queue)** display nearly identical queue distributions across the 4 entry approaches:
+> * **Arm 2 (East):** $\approx 38\text{--}42$ veh
+> * **Arm 4 (South):** $\approx 83\text{--}92$ veh
+> * **Arm 6 (West):** Dominant congestion spike ($\approx 170\text{--}195$ veh)
+> * **Arm 8 (North):** $\approx 63\text{--}75$ veh
+> 
+> Despite sharing this visual profile, Model 2 (EKF) achieves a **+73.3% throughput surge** in Flight 0003, yet records a lower completed PCU count in Flight 003. This illustrates a key transportation engineering insight: **static queue snapshots $\neq$ dynamic turning flows**.
+> 
+> 1. **Standing Platoon vs. Flooding Inflow (Demand Volume):**
+>    * In **Flight 0003**, the queue represents a *standing platoon* with $89$ total active vehicles recorded on Arm 6. When the green phase is held, the platoon drains downstream, allowing EKF headway compression ($s_0 \to 0.35\text{ m}, T \to 0.65\text{ s}$) to discharge $46$ vehicles vs. $30$ in Model 1 (+73.3% PCU).
+>    * In **Flight 003**, over **$306$ vehicles** flood Arm 6 continuously ($3.5\times$ higher demand volume). The queue is actively refilling faster than the intersection can drain it, swelling from $92$ to $268$ vehicles by frame 500.
+> 
+> 2. **Straight Platoon Flow vs. Cross-Stream Turning Conflicts:**
+>    * In **Flight 0003**, Arm 6 traffic moves predominantly straight ($6 \to 1$: $39$ vehicles, with only $17$ right turns). Straight platoons compress cleanly without lateral yielding.
+>    * In **Flight 003**, Arm 6 traffic is dominated by heavy cross-turning movements: **$83$ right turns ($6 \to 3$)** and **$76$ left turns ($6 \to 7$)**—amounting to **$159$ turning conflicts**. In lane-free mixed traffic, right turns cross opposing streams, creating internal conflict box blockages where tailgating closer cannot bypass yielding delays.
+> 
+> 3. **The 125-Second Horizon Cutoff & Travel Time Paradox:**
+>    * While completed exit counts at the 125s mark were lower ($21$ vs. $27$ veh), vehicles in Model 2 actually traversed the junction **15.0 seconds faster** (mean trip duration dropped from $53.9\text{ s} \to 38.9\text{ s}$, and P95 latency dropped by **$17.5\text{ s}$**).
+>    * Because Model 2 vehicles reached the intersection faster, a dense platoon of **$98$ vehicles was actively transiting the conflict box** at second 125.0, cutting off right before crossing the exit detector.
+
 ---
 
 ### Figure 4: Multi-Window Horizon Sensitivity Analysis
