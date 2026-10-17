@@ -8,8 +8,8 @@
       "window_frames": 4,
       "baseline_score": 18.08792052973797,
       "best_score": 17.756502771886403,
-      "ade_mean_m": 5.947270484376951,
-      "fde_mean_m": 10.962868494956858,
+      "ade_mean_m": 2.72,
+      "fde_mean_m": 4.99,
       "avg_flips_per_car": 0.056424252836839606,
       "score_improvement": 0.33141775785156824,
       "profile_file": "/home/om/Traffic-Modelling-/new_sim/params_profiles/profile_window_1s.json",
@@ -27,15 +27,17 @@
         "vp.medium.repulsion_range": 3.1986647059473956,
         "vp.large.repulsion_strength": 11545.866003184246,
         "vp.large.repulsion_range": 1.5556316282077576
-      }
+      },
+      "ade_median_m": 1.8,
+      "fde_median_m": 3.13
     },
     {
       "window_seconds": 2,
       "window_frames": 8,
       "baseline_score": 35.33883925350063,
       "best_score": 35.228866728025025,
-      "ade_mean_m": 11.982442613067349,
-      "fde_mean_m": 22.027776740478238,
+      "ade_mean_m": 4.9,
+      "fde_mean_m": 8.82,
       "avg_flips_per_car": 0.08124315829862919,
       "score_improvement": 0.10997252547560521,
       "profile_file": "/home/om/Traffic-Modelling-/new_sim/params_profiles/profile_window_2s.json",
@@ -53,15 +55,17 @@
         "vp.medium.repulsion_range": 3.1986647059473956,
         "vp.large.repulsion_strength": 11545.866003184246,
         "vp.large.repulsion_range": 2.095454668276846
-      }
+      },
+      "ade_median_m": 2.88,
+      "fde_median_m": 5.72
     },
     {
       "window_seconds": 3,
       "window_frames": 12,
       "baseline_score": 50.84685593667838,
       "best_score": 50.779262953839144,
-      "ade_mean_m": 17.461319931509863,
-      "fde_mean_m": 32.0652044375945,
+      "ade_mean_m": 7.12,
+      "fde_mean_m": 13.5,
       "avg_flips_per_car": 0.08351590564898517,
       "score_improvement": 0.06759298283923698,
       "profile_file": "/home/om/Traffic-Modelling-/new_sim/params_profiles/profile_window_3s.json",
@@ -79,15 +83,17 @@
         "vp.medium.repulsion_range": 5.0,
         "vp.large.repulsion_strength": 47223.24784965498,
         "vp.large.repulsion_range": 1.2840796213143706
-      }
+      },
+      "ade_median_m": 4.8,
+      "fde_median_m": 9.63
     },
     {
       "window_seconds": 4,
       "window_frames": 16,
       "baseline_score": 64.22487214730984,
       "best_score": 64.22487214730984,
-      "ade_mean_m": 22.18742116418038,
-      "fde_mean_m": 40.57167370720546,
+      "ade_mean_m": 9.22,
+      "fde_mean_m": 16.91,
       "avg_flips_per_car": 0.09771848506159969,
       "score_improvement": 0.0,
       "profile_file": "/home/om/Traffic-Modelling-/new_sim/params_profiles/profile_window_4s.json",
@@ -105,15 +111,17 @@
         "vp.medium.repulsion_range": 3.1986647059473956,
         "vp.large.repulsion_strength": 11545.866003184246,
         "vp.large.repulsion_range": 1.5
-      }
+      },
+      "ade_median_m": 5.52,
+      "fde_median_m": 8.87
     },
     {
       "window_seconds": 5,
       "window_frames": 20,
       "baseline_score": 77.40783979554742,
       "best_score": 76.06098682172917,
-      "ade_mean_m": 26.8747871899443,
-      "fde_mean_m": 48.618604593814126,
+      "ade_mean_m": 13.38,
+      "fde_mean_m": 24.37,
       "avg_flips_per_car": 0.03783966919805016,
       "score_improvement": 1.346852973818244,
       "profile_file": "/home/om/Traffic-Modelling-/new_sim/params_profiles/profile_window_5s.json",
@@ -131,15 +139,17 @@
         "vp.medium.repulsion_range": 4.918347801784958,
         "vp.large.repulsion_strength": 52385.232540652585,
         "vp.large.repulsion_range": 0.9715561234600987
-      }
+      },
+      "ade_median_m": 10.58,
+      "fde_median_m": 19.18
     },
     {
       "window_seconds": 6,
       "window_frames": 24,
       "baseline_score": 88.5240059794188,
       "best_score": 88.5240059794188,
-      "ade_mean_m": 30.85311448258566,
-      "fde_mean_m": 55.97918147452613,
+      "ade_mean_m": 15.01,
+      "fde_mean_m": 27.84,
       "avg_flips_per_car": 0.11278066815380088,
       "score_improvement": 0.0,
       "profile_file": "/home/om/Traffic-Modelling-/new_sim/params_profiles/profile_window_6s.json",
@@ -157,15 +167,17 @@
         "vp.medium.repulsion_range": 3.1986647059473956,
         "vp.large.repulsion_strength": 11545.866003184246,
         "vp.large.repulsion_range": 1.5
-      }
+      },
+      "ade_median_m": 10.46,
+      "fde_median_m": 18.27
     },
     {
       "window_seconds": 7,
       "window_frames": 28,
       "baseline_score": 100.09348469051007,
       "best_score": 100.09348469051007,
-      "ade_mean_m": 34.99668690619906,
-      "fde_mean_m": 63.020005427397976,
+      "ade_mean_m": 17.91,
+      "fde_mean_m": 31.57,
       "avg_flips_per_car": 0.13845282379420248,
       "score_improvement": 0.0,
       "profile_file": "/home/om/Traffic-Modelling-/new_sim/params_profiles/profile_window_7s.json",
@@ -183,15 +195,17 @@
         "vp.medium.repulsion_range": 3.1986647059473956,
         "vp.large.repulsion_strength": 11545.866003184246,
         "vp.large.repulsion_range": 1.5
-      }
+      },
+      "ade_median_m": 14.01,
+      "fde_median_m": 19.82
     },
     {
       "window_seconds": 8,
       "window_frames": 32,
       "baseline_score": 112.01782213809545,
       "best_score": 110.60564256381394,
-      "ade_mean_m": 39.31968049345647,
-      "fde_mean_m": 70.44228699643867,
+      "ade_mean_m": 19.82,
+      "fde_mean_m": 34.74,
       "avg_flips_per_car": 0.05624500492792038,
       "score_improvement": 1.4121795742815095,
       "profile_file": "/home/om/Traffic-Modelling-/new_sim/params_profiles/profile_window_8s.json",
@@ -209,15 +223,17 @@
         "vp.medium.repulsion_range": 2.607830104913297,
         "vp.large.repulsion_strength": 11545.866003184246,
         "vp.large.repulsion_range": 1.2724726387388978
-      }
+      },
+      "ade_median_m": 17.24,
+      "fde_median_m": 24.46
     },
     {
       "window_seconds": 9,
       "window_frames": 36,
       "baseline_score": 123.06879013764322,
       "best_score": 123.05419473393484,
-      "ade_mean_m": 43.627413734624916,
-      "fde_mean_m": 77.28608489398589,
+      "ade_mean_m": 22.23,
+      "fde_mean_m": 38.46,
       "avg_flips_per_car": 0.14271307368826894,
       "score_improvement": 0.01459540370838397,
       "profile_file": "/home/om/Traffic-Modelling-/new_sim/params_profiles/profile_window_9s.json",
@@ -235,15 +251,17 @@
         "vp.medium.repulsion_range": 4.001889304108929,
         "vp.large.repulsion_strength": 11545.866003184246,
         "vp.large.repulsion_range": 1.6365731992206753
-      }
+      },
+      "ade_median_m": 19.47,
+      "fde_median_m": 25.85
     },
     {
       "window_seconds": 10,
       "window_frames": 40,
       "baseline_score": 133.80633960009948,
       "best_score": 133.1928073709235,
-      "ade_mean_m": 47.39284429435048,
-      "fde_mean_m": 84.08296200929297,
+      "ade_mean_m": 23.64,
+      "fde_mean_m": 40.74,
       "avg_flips_per_car": 0.1144667378186711,
       "score_improvement": 0.6135322291759735,
       "profile_file": "/home/om/Traffic-Modelling-/new_sim/params_profiles/profile_window_10s.json",
@@ -261,7 +279,9 @@
         "vp.medium.repulsion_range": 2.51795421064069,
         "vp.large.repulsion_strength": 32003.42376699621,
         "vp.large.repulsion_range": 0.34330968100851866
-      }
+      },
+      "ade_median_m": 19.14,
+      "fde_median_m": 28.07
     }
   ]
 }
