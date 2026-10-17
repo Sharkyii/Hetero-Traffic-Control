@@ -15,6 +15,7 @@
 - [Why This Matters: The Real-World Problem](#-why-this-matters-the-real-world-problem)
 - [The Dual-Intelligence Architecture](#-the-dual-intelligence-architecture)
 - [Key Benchmark Results (80 Monte Carlo Runs)](#-key-benchmark-results-80-monte-carlo-runs)
+- [Lane-by-Lane Signal Timing & Calculation Results](#-lane-by-lane-signal-timing--computational-calculation-results)
 - [Visual Deep Dives & Empirical Analysis](#-visual-deep-dives--empirical-analysis)
   - [Figure 1: Cross-Dataset PCU Throughput](#figure-1-cross-dataset-pcu-throughput-comparison)
   - [Figure 2: Slashing Stopped Delay & Tail Latency](#figure-2-delay-and-travel-time-tail-latency-reduction)
@@ -130,6 +131,48 @@ Tested across **80 full Monte Carlo simulations** (4 real drone flight datasets 
 > - **Throughput (PCU):** Total passenger car units cleared through the intersection during the 125-second evaluation window.
 > - **Stopped Delay:** Total seconds an individual vehicle spent completely stationary ($v < 0.1\text{ m/s}$).
 > - **P95 Tail Latency:** The travel time experienced by the 95th percentile worst-off commuter. Reducing this metric eliminates the dreaded "accordion" shockwaves at the back of queues.
+
+---
+
+## ⏱️ Lane-by-Lane Signal Timing & Computational Calculation Results
+
+How does the framework calculate green time and clearance time for each individual approach lane, and how fast does each calculation execute?
+
+### 1. Calculated Green Signal Time by Lane / Approach Arm
+Traditional traffic controllers (such as Webster fixed-cycle timers) divide green time evenly or arbitrarily across approaches, ignoring real-time congestion differentials. In contrast, the H-QC-MPC controller calculates green time dynamically based on real-time **heterogeneous PCU queue pressures**:
+
+| Approach Arm / Lane | Compass Heading | Empirical Traffic Profile | Static Webster Baseline (Fixed Timer) | Calculated Green Time (H-QC-MPC) | Share of Green | Dynamic Calculation Rationale |
+| :--- | :--- | :--- | :---: | :---: | :---: | :--- |
+| **Arm 6 (West)** | West $\to$ East & Turns | **Dominant Bottleneck** ($170\text{--}195$ queued veh) | $25.0\text{s}$ (Rigid equal timer) | **$40.0\text{s}$** ($2 \times 20.0\text{s}$ green phases) | **$43.0\%$** | Awarded top priority & double green service due to massive pressure differential ($\Delta P > 150$). |
+| **Arm 2 (East)** | East $\to$ West & Turns | **High-Efficiency Flow** ($38\text{--}47$ queued veh) | $25.0\text{s}$ (Rigid equal timer) | **$33.0\text{s} \text{ -- } 39.8\text{s}$** ($2$ green phases) | **$35.5\%$** | Rapid platoon discharge; cleared efficiently to prevent downstream exit blockage. |
+| **Arm 4 (South)** | South $\to$ North & Turns | **Moderate Backlog** ($66\text{--}92$ queued veh) | $25.0\text{s}$ (Rigid equal timer) | **$10.8\text{s} \text{ -- } 20.0\text{s}$** ($1$ green phase) | **$21.5\%$** | Served dynamically once primary East-West bottleneck pressure stabilized. |
+| **Arm 8 (North)** | North $\to$ South & Turns | **Cross-Street Arrival** ($43\text{--}75$ queued veh) | $25.0\text{s}$ (Rigid equal timer) | **Held for Priority Service** | Dynamic Hold | Lower PCU pressure; queued behind critical conflict streams before anti-starvation preemption. |
+| **All-Red Clearance** | **Intersection Conflict Box** | **Safety Transition Area** | **$24.0\text{s}$** ($4 \times 6.0\text{s}$ rigid IRC timer) | **$1.5\text{s} \text{ -- } 2.0\text{s}$ / switch** (Dynamic) | **Event-Driven** | Slashes empty all-red waiting, saving **$4.0\text{s} \text{ -- } 4.5\text{s}$ of dead time per phase switch**. |
+
+---
+
+### 2. Calculated Commuter Travel Time & Delay Metrics
+The table below contrasts the travel time and delay calculation results across all 4 traffic regimes:
+
+| Traffic Regime & Flight | Control Architecture | Mean Stopped Delay | Mean Trip Travel Time | P95 Worst-Case Latency | In-Junction Collisions |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **Dense Platoon** (`flight_0003`) | Model 1 (H-QC-MPC)<br>**Model 2 (Dual-EKF)** | $40.36\text{s}$<br>$45.11\text{s}$ | $43.37\text{s}$<br>$52.23\text{s}$ | $117.39\text{s}$<br>**$109.75\text{s}$ ($-7.6\text{s}$)** | **0**<br>**0** |
+| **Balanced 4-Way** (`flight_0007`) | Model 1 (H-QC-MPC)<br>**Model 2 (Dual-EKF)** | $34.08\text{s}$<br>**$31.38\text{s}$ ($-2.7\text{s}$)** | $63.01\text{s}$<br>**$51.22\text{s}$ ($-11.8\text{s}$)** | $111.62\text{s}$<br>**$89.74\text{s}$ ($-21.9\text{s}$)** | **0**<br>**0** |
+| **Free-Flowing** (`flight_0005`) | Model 1 (H-QC-MPC)<br>**Model 2 (Dual-EKF)** | $20.18\text{s}$<br>**$14.71\text{s}$ ($-5.5\text{s}$)** | $44.55\text{s}$<br>**$43.35\text{s}$ ($-1.2\text{s}$)** | $64.40\text{s}$<br>$65.01\text{s}$ | **0**<br>**0** |
+| **Asymmetric Queue** (`flight_003`) | Model 1 (H-QC-MPC)<br>**Model 2 (Dual-EKF)** | $34.33\text{s}$<br>$36.58\text{s}$ | $53.87\text{s}$<br>**$38.89\text{s}$ ($-15.0\text{s}$)** | $112.70\text{s}$<br>**$95.25\text{s}$ ($-17.5\text{s}$)** | **0**<br>**0** |
+
+---
+
+### 3. Computational Execution Time & Algorithmic Latency Benchmarks
+How long does each algorithmic calculation take to execute on standard CPU hardware?
+
+| Computational Module | Algorithm / Implementation | Target Hardware | Execution Latency | Calculation Speed / Throughput |
+| :--- | :--- | :---: | :---: | :---: |
+| **Microscopic Dual-EKF Update** | Analytical Zero-Allocation Scalar Algebra | Single CPU Core | **$17.7\,\mu\text{s}$** per vehicle update | **$> 56,000$ vehicle updates / second** |
+| **Macroscopic H-QC-MPC Step** | Dynamic PCU Pressure + 2D Conflict Box Audit | Single CPU Core | **$0.12\text{ ms}$** per step | **$> 8,000$ signal cycles / second** |
+| **2D Physics & Force Solvers** | Solenoidal IDM + Potential Field Boundary Walls | Single CPU Core | **$1.85\text{ ms}$** per frame ($100+$ veh) | **$> 540$ simulation frames / second** |
+| **Headless Simulation (500 frames / 125s)** | Full multi-agent traffic simulation pipeline | Single CPU Core | **$2.84\text{ seconds}$** | **$\approx 44\times$ faster than real time** |
+| **80-Run Monte Carlo Benchmark Suite** | 4 Datasets $\times$ 2 Models $\times$ 10 Seeds | 16 Parallel CPU Workers | **$3,015\text{ seconds}$** (~50 minutes) | Full statistical hypothesis testing ($p < 10^{-9}$) |
 
 ---
 
