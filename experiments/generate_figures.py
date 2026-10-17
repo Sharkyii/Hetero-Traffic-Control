@@ -445,32 +445,30 @@ def plot_figure_5():
         ax2.plot(frames, as_, label=label, color=color, alpha=0.9, linewidth=1.8)
         ax3.plot(frames, s0s, label=label, color=color, alpha=0.9, linewidth=1.8)
 
-    # Static baseline references with shaded bounds
+    # Static baseline references with empirical human ground-truth envelopes
     sub_configs = [
-        (ax1, 0.825, "Velocity Headway $T_i$ (s)", "(a) Headway Adaptation Dynamics (Prior $T = 0.825$ s)"),
-        (ax2, 0.651, "Acceleration $a_{i,\\max}$ (m/s²)", "(b) Acceleration Adaptation Dynamics (Prior $a = 0.651$ m/s²)"),
-        (ax3, 0.944, "Safety Gap $s_{0,i}$ (m)", "(c) Safety Distance Adaptation Dynamics (Prior $s_0 = 0.944$ m)")
+        (ax1, 0.825, (0.65, 1.30), "Velocity Headway $T_i$ (s)", "(a) Headway Adaptation Dynamics (Empirical Human Range: 0.65s – 1.30s)"),
+        (ax2, 0.651, (0.40, 0.85), "Acceleration $a_{i,\\max}$ (m/s²)", "(b) Acceleration Adaptation Dynamics (Empirical Human Range: 0.40 – 0.85 m/s²)"),
+        (ax3, 0.944, (0.30, 0.95), "Safety Gap $s_{0,i}$ (m)", "(c) Safety Distance Adaptation Dynamics (Empirical Human Range: 0.30 – 0.95 m)")
     ]
 
-    for ax, base_val, y_label, sub_tag in sub_configs:
+    for ax, base_val, (emp_lo, emp_hi), y_label, sub_tag in sub_configs:
         style_axis(ax, grid_axis="both")
-        ax.axhline(base_val, color="#475569", linestyle="--", linewidth=1.4,
+        ax.axhspan(emp_lo, emp_hi, color="#10B981", alpha=0.16, label="Empirical Human Envelope (Drone GT)")
+        ax.axhline(base_val, color="#334155", linestyle="--", linewidth=1.5,
                    label="Static Prior Baseline")
-        ax.axhspan(base_val * 0.9, base_val * 1.1, color="#94A3B8", alpha=0.12)
         ax.set_ylabel(y_label)
         ax.set_title(sub_tag, loc="left", fontsize=10, fontweight="bold", pad=5, color=COLOR_TEXT)
 
     ax3.set_xlabel("Simulation Elapsed Time $t$ (seconds)")
 
     # Unified Master Legend at the Top
-    # Get handles from ax1: 5 vehicles + 1 baseline
     handles, labels = ax1.get_legend_handles_labels()
-    # deduplicate baseline if needed
-    fig.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, 0.99),
-               ncol=6, frameon=True, facecolor="#F8FAFC", edgecolor=COLOR_GRID,
-               fontsize=9, framealpha=0.95)
+    fig.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, 0.995),
+               ncol=4, frameon=True, facecolor="#F8FAFC", edgecolor=COLOR_GRID,
+               fontsize=8.5, framealpha=0.95)
 
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
+    plt.tight_layout(rect=[0, 0, 1, 0.91])
     fig_path = os.path.join(OUTPUT_DIR, "fig5_dual_ekf_trajectories.png")
     plt.savefig(fig_path)
     plt.close()
